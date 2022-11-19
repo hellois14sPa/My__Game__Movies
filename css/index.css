@@ -1,0 +1,4293 @@
+*
+{
+    margin: 0;
+}
+body
+{
+    background-color: black;
+    overflow-y: hidden;
+}
+
+.first
+{
+    background-color: rgb(63, 32, 32);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 666;
+}
+.first .div1
+{
+    width: 50%;
+    margin: 200px auto ;
+    color: white;
+
+}
+.first .div2
+{
+    width: 50%;
+    margin: 50px auto ;
+    color: white;
+}
+.first .de1
+{
+    width: 50%;
+    margin: 200px auto;
+    color: white;
+}
+.first .de1 button
+{
+    
+    min-width: 40%;
+    height: 66px;
+    font-size: 22px;
+    font-weight: bolder;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    margin: 10px 0px;
+
+}
+.first .de1 button:focus
+{
+    border: none;
+    outline: none;
+}
+.first .de12 h5
+{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+  
+    padding:20px 0px ;
+
+
+}
+
+.first .de12 p
+{
+    text-align: right;
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;  
+    padding: 10px 0px;      
+
+}
+.first .de12 span
+{
+
+    padding: 10px;
+    color: white;
+    padding: 10px 0px;
+
+
+}
+
+.bn
+{
+    border-bottom: 3px solid white;    
+}
+
+
+.first .de12 button
+{
+    
+    min-width: 40%;
+    height: 66px;
+    font-size: 32px;
+    font-weight: bolder;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    margin: 10px 0px;
+
+}
+.first .de12 button:focus
+{
+    border: none;
+    outline: none;
+}
+
+.de13 h5
+{
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+.de13
+{
+    margin: 300px auto;
+}
+
+.de13 #q1,.de13 #q2,.de13 #q3
+{
+    display: none;
+}
+.de16 input
+{
+    margin: 20px auto;
+    height: 48px;
+    border-radius: 11px;
+    width: 50%;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: right;
+    padding: 10px;
+
+}
+.de16 button
+{
+    min-width: 30%;
+    height: 56px;
+    font-size: 32px;
+    font-weight: bolder;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    margin: 10px 0px;
+
+}
+
+.first .de16 button:focus
+{
+    border: none;
+    outline: none;
+}
+
+.de16
+{
+    margin: 150px auto;
+}
+
+.khon
+{
+    width: 50%;
+    margin: 10px auto;
+    background-color: #898975;
+    color: white;
+    font-size: 23px;
+    display: none;
+
+}
+/* start sec1 */
+.agaba1,.agaba2,.agaba3,.agaba4,.agaba5,.agaba6,.agaba7,.agaba8,.agaba9,.agaba10,.agaba11,.agaba12,.agaba13,.agaba14,.agaba15,.agaba16,.agaba17,.agaba18,.agaba19,.agaba20,.agaba21,.agaba22,.agaba23,.agaba24,.agaba25,.agaba26,.agaba27,.agaba28,.agaba29,.agaba30
+{
+    font-size: 25px;
+    color: rgb(109, 196, 109);
+    font-weight: bolder;
+    display: none;
+}
+.sec1
+{
+    width: 100%;
+    height: auto;
+    padding: 5px 0px;
+    background-color: #3b3636;
+    position: sticky;
+    top: 0;
+    z-index: 90;
+}
+
+.sec1 .div1
+{
+    width: 66px;
+    height: 45px;
+    border-radius: 100px;
+    background-color: green;
+    padding: 5px;
+    color: white;
+ 
+ 
+}
+.sec1  .true
+{
+    color: white;
+    display: inline;
+    margin: 0px 15px;
+  
+}
+
+.sec1  .false
+{
+    color: white;
+    display: inline;
+    margin: 0px 15px;
+  
+}
+
+.sec1 .div1 .correct
+{
+    
+    font-size: 26px;
+    padding: 4px 0px;
+}
+
+
+.sec1 .div3
+{
+    width: 66px;
+    height: 45px;
+    border-radius: 100px;
+    background-color: red;
+    padding: 5px;
+    color: white;
+    margin-left: 62%;
+
+ 
+}
+
+
+.sec1 .div3 .wrong
+{
+    
+    font-size: 26px;
+    padding: 4px 0px;
+
+}
+.sec1 .div2 h1
+{
+    color: white;
+}
+
+.sec2
+{
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+    padding-bottom: 50px;
+    margin: 0px 0px;
+    background-image:url('../images/tt.jpg') ;
+    background-repeat:no-repeat ;
+    background-size:100% 100% ;
+}
+.sec2 .div1
+{
+    width: 60%;
+    height: auto;
+    padding: 50px 0px;
+    background-color: #363131e3;
+    border: 3px solid #DDD;
+    margin: 0px auto;
+    box-shadow: 10px 10px 10px;
+    position: relative;
+    border-radius: 22px;
+
+}
+
+.sec2 .image_f img
+{
+    width: 68%;
+
+}
+.sec2 .image_f{
+    position: absolute;
+    top: 0;
+    left: -76px;
+    height: 150px;
+
+}
+
+.sec2 .div1 h1
+{
+    color: white;
+    font-weight: bolder;
+}
+.div__quse ul li
+{
+    display: inline;
+    margin: 0px 10px;
+}
+.div__quse
+{
+    margin: 40px 0px;
+}
+.div__quse ul li
+{
+    color: white;
+}
+.div__quse img
+{
+    width: 150px;
+    height: 120px;
+}
+
+.div1 input
+{
+    width: 50%;
+    margin:20px auto;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid #898975;
+    background-color: #36313100;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-align: right;
+    transition: all 1s ease-in-out;
+
+}
+.div1 input:focus
+{   
+    transform: scale(0.9 , 0.9);
+}
+.div1 button
+{
+    min-width: 50%;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+
+}
+.div1 button:focus
+{
+    border: none;
+    outline: none;
+}
+.div1 button:active
+{
+    border: none;
+    outline: none;
+}
+
+
+
+
+.sec2 .div2
+{
+    width: 60%;
+    height: auto;
+    padding: 50px 0px;
+    background-color: #363131e3;
+    border: 3px solid #DDD;
+    margin: 0px auto;
+    box-shadow: 10px 10px 10px;
+    position: relative;
+    border-radius: 22px;
+
+}
+
+.sec2 .image_f img
+{
+    width: 68%;
+
+}
+.sec2 .image_f{
+    position: absolute;
+    top: 0;
+    left: -76px;
+    height: 150px;
+
+}
+
+.sec2 .div2 h1
+{
+    color: white;
+    font-weight: bolder;
+}
+.div__quse ul li
+{
+    display: inline;
+    margin: 0px 10px;
+}
+.div__quse
+{
+    margin: 40px 0px;
+}
+.div__quse ul li
+{
+    color: white;
+}
+.div__quse img
+{
+    width: 150px;
+    height: 120px;
+}
+
+.div2 input
+{
+    width: 50%;
+    margin:20px auto;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid #898975;
+    background-color: #36313100;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-align: right;
+    transition: all 1s ease-in-out;
+
+}
+.div2 input:focus
+{   
+    transform: scale(0.9 , 0.9);
+}
+.div2 button
+{
+    min-width: 50%;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+
+}
+.div2 button:focus
+{
+    border: none;
+    outline: none;
+}
+.div2 button:active
+{
+    border: none;
+    outline: none;
+}
+
+
+
+
+.sec2 .div3
+{
+    width: 60%;
+    height: auto;
+    padding: 50px 0px;
+    background-color: #363131e3;
+    border: 3px solid #DDD;
+    margin: 0px auto;
+    box-shadow: 10px 10px 10px;
+    position: relative;
+    border-radius: 22px;
+
+}
+
+.sec2 .image_f img
+{
+    width: 68%;
+
+}
+.sec2 .image_f{
+    position: absolute;
+    top: 0;
+    left: -76px;
+    height: 150px;
+
+}
+
+.sec2 .div3 h1
+{
+    color: white;
+    font-weight: bolder;
+}
+.div__quse ul li
+{
+    display: inline;
+    margin: 0px 10px;
+}
+.div__quse
+{
+    margin: 40px 0px;
+}
+.div__quse ul li
+{
+    color: white;
+}
+.div__quse img
+{
+    width: 150px;
+    height: 120px;
+}
+
+.div3 input
+{
+    width: 50%;
+    margin:20px auto;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid #898975;
+    background-color: #36313100;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-align: right;
+    transition: all 1s ease-in-out;
+
+}
+.div3 input:focus
+{   
+    transform: scale(0.9 , 0.9);
+}
+.div3 button
+{
+    min-width: 50%;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+
+}
+.div3 button:focus
+{
+    border: none;
+    outline: none;
+}
+.div3 button:active
+{
+    border: none;
+    outline: none;
+}
+
+
+
+.sec2 .div4
+{
+    width: 60%;
+    height: auto;
+    padding: 50px 0px;
+    background-color: #363131e3;
+    border: 3px solid #DDD;
+    margin: 0px auto;
+    box-shadow: 10px 10px 10px;
+    position: relative;
+    border-radius: 22px;
+
+}
+
+.sec2 .image_f img
+{
+    width: 68%;
+
+}
+.sec2 .image_f{
+    position: absolute;
+    top: 0;
+    left: -76px;
+    height: 150px;
+
+}
+
+.sec2 .div4 h1
+{
+    color: white;
+    font-weight: bolder;
+}
+.div__quse ul li
+{
+    display: inline;
+    margin: 0px 10px;
+}
+.div__quse
+{
+    margin: 40px 0px;
+}
+.div__quse ul li
+{
+    color: white;
+}
+.div__quse img
+{
+    width: 150px;
+    height: 120px;
+}
+
+.div4 input
+{
+    width: 50%;
+    margin:20px auto;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid #898975;
+    background-color: #36313100;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-align: right;
+    transition: all 1s ease-in-out;
+
+}
+.div4 input:focus
+{   
+    transform: scale(0.9 , 0.9);
+}
+.div4 button
+{
+    min-width: 50%;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+
+}
+.div4 button:focus
+{
+    border: none;
+    outline: none;
+}
+.div4 button:active
+{
+    border: none;
+    outline: none;
+}
+
+
+.sec2 .div5
+{
+    width: 60%;
+    height: auto;
+    padding: 50px 0px;
+    background-color: #363131e3;
+    border: 3px solid #DDD;
+    margin: 0px auto;
+    box-shadow: 10px 10px 10px;
+    position: relative;
+    border-radius: 22px;
+
+}
+
+.sec2 .image_f img
+{
+    width: 68%;
+
+}
+.sec2 .image_f{
+    position: absolute;
+    top: 0;
+    left: -76px;
+    height: 150px;
+}
+
+.sec2 .div5 h1
+{
+    color: white;
+    font-weight: bolder;
+}
+.div__quse ul li
+{
+    display: inline;
+    margin: 0px 10px;
+}
+.div__quse
+{
+    margin: 40px 0px;
+}
+.div__quse ul li
+{
+    color: white;
+}
+.div__quse img
+{
+    width: 150px;
+    height: 120px;
+}
+
+.div5 input
+{
+    width: 50%;
+    margin:20px auto;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid #898975;
+    background-color: #36313100;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-align: right;
+    transition: all 1s ease-in-out;
+
+}
+.div5 input:focus
+{   
+    transform: scale(0.9 , 0.9);
+}
+.div5 button
+{
+    min-width: 50%;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+
+}
+.div5 button:focus
+{
+    border: none;
+    outline: none;
+}
+.div5 button:active
+{
+    border: none;
+    outline: none;
+}
+
+
+
+.sec2 .div6
+{
+    width: 60%;
+    height: auto;
+    padding: 50px 0px;
+    background-color: #363131e3;
+    border: 3px solid #DDD;
+    margin: 0px auto;
+    box-shadow: 10px 10px 10px;
+    position: relative;
+    border-radius: 22px;
+
+}
+
+.sec2 .image_f img
+{
+    width: 68%;
+
+}
+.sec2 .image_f{
+    position: absolute;
+    top: 0;
+    left: -76px;
+    height: 150px;
+
+}
+
+.sec2 .div6 h1
+{
+    color: white;
+    font-weight: bolder;
+}
+.div__quse ul li
+{
+    display: inline;
+    margin: 0px 10px;
+}
+.div__quse
+{
+    margin: 40px 0px;
+}
+.div__quse ul li
+{
+    color: white;
+}
+.div__quse img
+{
+    width: 150px;
+    height: 120px;
+}
+
+.div6 input
+{
+    width: 50%;
+    margin:20px auto;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid #898975;
+    background-color: #36313100;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-align: right;
+    transition: all 1s ease-in-out;
+
+}
+.div6 input:focus
+{   
+    transform: scale(0.9 , 0.9);
+}
+.div6 button
+{
+    min-width: 50%;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+
+}
+.div6 button:focus
+{
+    border: none;
+    outline: none;
+}
+.div6 button:active
+{
+    border: none;
+    outline: none;
+}
+
+
+
+.sec2 .div7
+{
+    width: 60%;
+    height: auto;
+    padding: 50px 0px;
+    background-color: #363131e3;
+    border: 3px solid #DDD;
+    margin: 0px auto;
+    box-shadow: 10px 10px 10px;
+    position: relative;
+    border-radius: 22px;
+
+}
+
+.sec2 .image_f img
+{
+    width: 68%;
+
+}
+.sec2 .image_f{
+    position: absolute;
+    top: 0;
+    left: -76px;
+    height: 150px;
+
+}
+
+.sec2 .div7 h1
+{
+    color: white;
+    font-weight: bolder;
+}
+.div__quse ul li
+{
+    display: inline;
+    margin: 0px 10px;
+}
+.div__quse
+{
+    margin: 40px 0px;
+}
+.div__quse ul li
+{
+    color: white;
+}
+.div__quse img
+{
+    width: 150px;
+    height: 120px;
+}
+
+.div7 input
+{
+    width: 50%;
+    margin:20px auto;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid #898975;
+    background-color: #36313100;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-align: right;
+    transition: all 1s ease-in-out;
+
+}
+.div7 input:focus
+{   
+    transform: scale(0.9 , 0.9);
+}
+.div7 button
+{
+    min-width: 50%;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+
+}
+.div7 button:focus
+{
+    border: none;
+    outline: none;
+}
+.div7 button:active
+{
+    border: none;
+    outline: none;
+}
+
+
+
+.sec2 .div8
+{
+    width: 60%;
+    height: auto;
+    padding: 50px 0px;
+    background-color: #363131e3;
+    border: 3px solid #DDD;
+    margin: 0px auto;
+    box-shadow: 10px 10px 10px;
+    position: relative;
+    border-radius: 22px;
+
+}
+
+.sec2 .image_f img
+{
+    width: 68%;
+
+}
+.sec2 .image_f{
+    position: absolute;
+    top: 0;
+    left: -76px;
+    height: 150px;
+
+}
+
+.sec2 .div8 h1
+{
+    color: white;
+    font-weight: bolder;
+}
+.div__quse ul li
+{
+    display: inline;
+    margin: 0px 10px;
+}
+.div__quse
+{
+    margin: 40px 0px;
+}
+.div__quse ul li
+{
+    color: white;
+}
+.div__quse img
+{
+    width: 150px;
+    height: 120px;
+}
+
+.div8 input
+{
+    width: 50%;
+    margin:20px auto;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid #898975;
+    background-color: #36313100;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-align: right;
+    transition: all 1s ease-in-out;
+
+}
+.div8 input:focus
+{   
+    transform: scale(0.9 , 0.9);
+}
+.div8 button
+{
+    min-width: 50%;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+
+}
+.div8 button:focus
+{
+    border: none;
+    outline: none;
+}
+.div8 button:active
+{
+    border: none;
+    outline: none;
+}
+
+
+
+.sec2 .div9
+{
+    width: 60%;
+    height: auto;
+    padding: 50px 0px;
+    background-color: #363131e3;
+    border: 3px solid #DDD;
+    margin: 0px auto;
+    box-shadow: 10px 10px 10px;
+    position: relative;
+    border-radius: 22px;
+
+}
+
+.sec2 .image_f img
+{
+    width: 68%;
+
+}
+.sec2 .image_f{
+    position: absolute;
+    top: 0;
+    left: -76px;
+    height: 150px;
+
+}
+
+.sec2 .div9 h1
+{
+    color: white;
+    font-weight: bolder;
+}
+.div__quse ul li
+{
+    display: inline;
+    margin: 0px 10px;
+}
+.div__quse
+{
+    margin: 40px 0px;
+}
+.div__quse ul li
+{
+    color: white;
+}
+.div__quse img
+{
+    width: 150px;
+    height: 120px;
+}
+
+.div9 input
+{
+    width: 50%;
+    margin:20px auto;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid #898975;
+    background-color: #36313100;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-align: right;
+    transition: all 1s ease-in-out;
+
+}
+.div9 input:focus
+{   
+    transform: scale(0.9 , 0.9);
+}
+.div9 button
+{
+    min-width: 50%;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+
+}
+.div9 button:focus
+{
+    border: none;
+    outline: none;
+}
+.div9 button:active
+{
+    border: none;
+    outline: none;
+}
+
+
+.sec2 .div10
+{
+    width: 60%;
+    height: auto;
+    padding: 50px 0px;
+    background-color: #363131e3;
+    border: 3px solid #DDD;
+    margin: 0px auto;
+    box-shadow: 10px 10px 10px;
+    position: relative;
+    border-radius: 22px;
+
+}
+
+.sec2 .image_f img
+{
+    width: 68%;
+
+}
+.sec2 .image_f{
+    position: absolute;
+    top: 0;
+    left: -76px;
+    height: 150px;
+
+}
+
+.sec2 .div10 h1
+{
+    color: white;
+    font-weight: bolder;
+}
+.div__quse ul li
+{
+    display: inline;
+    margin: 0px 10px;
+}
+.div__quse
+{
+    margin: 40px 0px;
+}
+.div__quse ul li
+{
+    color: white;
+}
+.div__quse img
+{
+    width: 150px;
+    height: 120px;
+}
+
+.div10 input
+{
+    width: 50%;
+    margin:20px auto;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid #898975;
+    background-color: #36313100;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-align: right;
+    transition: all 1s ease-in-out;
+
+}
+.div10 input:focus
+{   
+    transform: scale(0.9 , 0.9);
+}
+.div10 button
+{
+    min-width: 50%;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+
+}
+.div10 button:focus
+{
+    border: none;
+    outline: none;
+}
+.div10 button:active
+{
+    border: none;
+    outline: none;
+}
+
+
+.sec2 .div11
+{
+    width: 60%;
+    height: auto;
+    padding: 50px 0px;
+    background-color: #363131e3;
+    border: 3px solid #DDD;
+    margin: 0px auto;
+    box-shadow: 10px 10px 10px;
+    position: relative;
+    border-radius: 22px;
+
+}
+
+.sec2 .image_f img
+{
+    width: 68%;
+
+}
+.sec2 .image_f{
+    position: absolute;
+    top: 0;
+    left: -76px;
+    height: 150px;
+
+}
+
+.sec2 .div11 h1
+{
+    color: white;
+    font-weight: bolder;
+}
+.div__quse ul li
+{
+    display: inline;
+    margin: 0px 10px;
+}
+.div__quse
+{
+    margin: 40px 0px;
+}
+.div__quse ul li
+{
+    color: white;
+}
+.div__quse img
+{
+    width: 150px;
+    height: 120px;
+}
+
+.div11 input
+{
+    width: 50%;
+    margin:20px auto;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid #898975;
+    background-color: #36313100;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-align: right;
+    transition: all 1s ease-in-out;
+
+}
+.div11 input:focus
+{   
+    transform: scale(0.9 , 0.9);
+}
+.div11 button
+{
+    min-width: 50%;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+
+}
+.div11 button:focus
+{
+    border: none;
+    outline: none;
+}
+.div11 button:active
+{
+    border: none;
+    outline: none;
+}
+
+.sec2 .div12
+{
+    width: 60%;
+    height: auto;
+    padding: 50px 0px;
+    background-color: #363131e3;
+    border: 3px solid #DDD;
+    margin: 0px auto;
+    box-shadow: 10px 10px 10px;
+    position: relative;
+    border-radius: 22px;
+
+}
+
+.sec2 .image_f img
+{
+    width: 68%;
+
+}
+.sec2 .image_f{
+    position: absolute;
+    top: 0;
+    left: -76px;
+    height: 150px;
+
+}
+
+.sec2 .div12 h1
+{
+    color: white;
+    font-weight: bolder;
+}
+.div__quse ul li
+{
+    display: inline;
+    margin: 0px 10px;
+}
+.div__quse
+{
+    margin: 40px 0px;
+}
+.div__quse ul li
+{
+    color: white;
+}
+.div__quse img
+{
+    width: 150px;
+    height: 120px;
+}
+
+.div12 input
+{
+    width: 50%;
+    margin:20px auto;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid #898975;
+    background-color: #36313100;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-align: right;
+    transition: all 1s ease-in-out;
+
+}
+.div12 input:focus
+{   
+    transform: scale(0.9 , 0.9);
+}
+.div12 button
+{
+    min-width: 50%;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+
+}
+.div12 button:focus
+{
+    border: none;
+    outline: none;
+}
+.div12 button:active
+{
+    border: none;
+    outline: none;
+}
+
+.sec2 .div13
+{
+    width: 60%;
+    height: auto;
+    padding: 50px 0px;
+    background-color: #363131e3;
+    border: 3px solid #DDD;
+    margin: 0px auto;
+    box-shadow: 10px 10px 10px;
+    position: relative;
+    border-radius: 22px;
+
+}
+
+.sec2 .image_f img
+{
+    width: 68%;
+
+}
+.sec2 .image_f{
+    position: absolute;
+    top: 0;
+    left: -76px;
+    height: 150px;
+
+}
+
+.sec2 .div13 h1
+{
+    color: white;
+    font-weight: bolder;
+}
+.div__quse ul li
+{
+    display: inline;
+    margin: 0px 10px;
+}
+.div__quse
+{
+    margin: 40px 0px;
+}
+.div__quse ul li
+{
+    color: white;
+}
+.div__quse img
+{
+    width: 150px;
+    height: 120px;
+}
+
+.div13 input
+{
+    width: 50%;
+    margin:20px auto;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid #898975;
+    background-color: #36313100;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-align: right;
+    transition: all 1s ease-in-out;
+
+}
+.div13 input:focus
+{   
+    transform: scale(0.9 , 0.9);
+}
+.div13 button
+{
+    min-width: 50%;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+
+}
+.div13 button:focus
+{
+    border: none;
+    outline: none;
+}
+.div13 button:active
+{
+    border: none;
+    outline: none;
+}
+
+
+.sec2 .div14
+{
+    width: 60%;
+    height: auto;
+    padding: 50px 0px;
+    background-color: #363131e3;
+    border: 3px solid #DDD;
+    margin: 0px auto;
+    box-shadow: 10px 10px 10px;
+    position: relative;
+    border-radius: 22px;
+
+}
+
+.sec2 .image_f img
+{
+    width: 68%;
+
+}
+.sec2 .image_f{
+    position: absolute;
+    top: 0;
+    left: -76px;
+    height: 150px;
+
+}
+
+.sec2 .div14 h1
+{
+    color: white;
+    font-weight: bolder;
+}
+.div__quse ul li
+{
+    display: inline;
+    margin: 0px 10px;
+}
+.div__quse
+{
+    margin: 40px 0px;
+}
+.div__quse ul li
+{
+    color: white;
+}
+.div__quse img
+{
+    width: 150px;
+    height: 120px;
+}
+
+.div14 input
+{
+    width: 50%;
+    margin:20px auto;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid #898975;
+    background-color: #36313100;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-align: right;
+    transition: all 1s ease-in-out;
+
+}
+.div14 input:focus
+{   
+    transform: scale(0.9 , 0.9);
+}
+.div14 button
+{
+    min-width: 50%;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+
+}
+.div14 button:focus
+{
+    border: none;
+    outline: none;
+}
+.div14 button:active
+{
+    border: none;
+    outline: none;
+}
+
+.sec2 .div15
+{
+    width: 60%;
+    height: auto;
+    padding: 50px 0px;
+    background-color: #363131e3;
+    border: 3px solid #DDD;
+    margin: 0px auto;
+    box-shadow: 10px 10px 10px;
+    position: relative;
+    border-radius: 22px;
+
+}
+
+.sec2 .image_f img
+{
+    width: 68%;
+
+}
+.sec2 .image_f{
+    position: absolute;
+    top: 0;
+    left: -76px;
+    height: 150px;
+
+}
+
+.sec2 .div15 h1
+{
+    color: white;
+    font-weight: bolder;
+}
+.div__quse ul li
+{
+    display: inline;
+    margin: 0px 10px;
+}
+.div__quse
+{
+    margin: 40px 0px;
+}
+.div__quse ul li
+{
+    color: white;
+}
+.div__quse img
+{
+    width: 150px;
+    height: 120px;
+}
+
+.div15 input
+{
+    width: 50%;
+    margin:20px auto;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid #898975;
+    background-color: #36313100;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-align: right;
+    transition: all 1s ease-in-out;
+
+}
+.div15 input:focus
+{   
+    transform: scale(0.9 , 0.9);
+}
+.div15 button
+{
+    min-width: 50%;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+
+}
+.div15 button:focus
+{
+    border: none;
+    outline: none;
+}
+.div15 button:active
+{
+    border: none;
+    outline: none;
+}
+
+
+
+.sec2 .div16
+{
+    width: 60%;
+    height: auto;
+    padding: 50px 0px;
+    background-color: #363131e3;
+    border: 3px solid #DDD;
+    margin: 0px auto;
+    box-shadow: 10px 10px 10px;
+    position: relative;
+    border-radius: 22px;
+
+}
+
+.sec2 .image_f img
+{
+    width: 68%;
+
+}
+.sec2 .image_f{
+    position: absolute;
+    top: 0;
+    left: -76px;
+    height: 150px;
+
+}
+
+.sec2 .div16 h1
+{
+    color: white;
+    font-weight: bolder;
+}
+.div__quse ul li
+{
+    display: inline;
+    margin: 0px 10px;
+}
+.div__quse
+{
+    margin: 40px 0px;
+}
+.div__quse ul li
+{
+    color: white;
+}
+.div__quse img
+{
+    width: 150px;
+    height: 120px;
+}
+
+.div16 input
+{
+    width: 50%;
+    margin:20px auto;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid #898975;
+    background-color: #36313100;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-align: right;
+    transition: all 1s ease-in-out;
+
+}
+.div16 input:focus
+{   
+    transform: scale(0.9 , 0.9);
+}
+.div16 button
+{
+    min-width: 50%;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+
+}
+.div16 button:focus
+{
+    border: none;
+    outline: none;
+}
+.div16 button:active
+{
+    border: none;
+    outline: none;
+}
+
+
+.sec2 .div17
+{
+    width: 60%;
+    height: auto;
+    padding: 50px 0px;
+    background-color: #363131e3;
+    border: 3px solid #DDD;
+    margin: 0px auto;
+    box-shadow: 10px 10px 10px;
+    position: relative;
+    border-radius: 22px;
+
+}
+
+.sec2 .image_f img
+{
+    width: 68%;
+
+}
+.sec2 .image_f{
+    position: absolute;
+    top: 0;
+    left: -76px;
+    height: 150px;
+
+}
+
+.sec2 .div17 h1
+{
+    color: white;
+    font-weight: bolder;
+}
+.div__quse ul li
+{
+    display: inline;
+    margin: 0px 10px;
+}
+.div__quse
+{
+    margin: 40px 0px;
+}
+.div__quse ul li
+{
+    color: white;
+}
+.div__quse img
+{
+    width: 150px;
+    height: 120px;
+}
+
+.div17 input
+{
+    width: 50%;
+    margin:20px auto;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid #898975;
+    background-color: #36313100;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-align: right;
+    transition: all 1s ease-in-out;
+
+}
+.div17 input:focus
+{   
+    transform: scale(0.9 , 0.9);
+}
+.div17 button
+{
+    min-width: 50%;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+
+}
+.div17 button:focus
+{
+    border: none;
+    outline: none;
+}
+.div17 button:active
+{
+    border: none;
+    outline: none;
+}
+
+
+
+
+
+.sec2 .div18
+{
+    width: 60%;
+    height: auto;
+    padding: 50px 0px;
+    background-color: #363131e3;
+    border: 3px solid #DDD;
+    margin: 0px auto;
+    box-shadow: 10px 10px 10px;
+    position: relative;
+    border-radius: 22px;
+
+}
+
+.sec2 .image_f img
+{
+    width: 68%;
+
+}
+.sec2 .image_f{
+    position: absolute;
+    top: 0;
+    left: -76px;
+    height: 150px;
+
+}
+
+.sec2 .div18 h1
+{
+    color: white;
+    font-weight: bolder;
+}
+.div__quse ul li
+{
+    display: inline;
+    margin: 0px 10px;
+}
+.div__quse
+{
+    margin: 40px 0px;
+}
+.div__quse ul li
+{
+    color: white;
+}
+.div__quse img
+{
+    width: 150px;
+    height: 120px;
+}
+
+.div18 input
+{
+    width: 50%;
+    margin:20px auto;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid #898975;
+    background-color: #36313100;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-align: right;
+    transition: all 1s ease-in-out;
+
+}
+.div18 input:focus
+{   
+    transform: scale(0.9 , 0.9);
+}
+.div18 button
+{
+    min-width: 50%;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+
+}
+.div18 button:focus
+{
+    border: none;
+    outline: none;
+}
+.div18 button:active
+{
+    border: none;
+    outline: none;
+}
+
+.sec2 .div19
+{
+    width: 60%;
+    height: auto;
+    padding: 50px 0px;
+    background-color: #363131e3;
+    border: 3px solid #DDD;
+    margin: 0px auto;
+    box-shadow: 10px 10px 10px;
+    position: relative;
+    border-radius: 22px;
+
+}
+
+.sec2 .image_f img
+{
+    width: 68%;
+
+}
+.sec2 .image_f{
+    position: absolute;
+    top: 0;
+    left: -76px;
+    height: 150px;
+
+}
+
+.sec2 .div19 h1
+{
+    color: white;
+    font-weight: bolder;
+}
+.div__quse ul li
+{
+    display: inline;
+    margin: 0px 10px;
+}
+.div__quse
+{
+    margin: 40px 0px;
+}
+.div__quse ul li
+{
+    color: white;
+}
+.div__quse img
+{
+    width: 150px;
+    height: 120px;
+}
+
+.div19 input
+{
+    width: 50%;
+    margin:20px auto;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid #898975;
+    background-color: #36313100;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-align: right;
+    transition: all 1s ease-in-out;
+
+}
+.div19 input:focus
+{   
+    transform: scale(0.9 , 0.9);
+}
+.div19 button
+{
+    min-width: 50%;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+
+}
+.div19 button:focus
+{
+    border: none;
+    outline: none;
+}
+.div19 button:active
+{
+    border: none;
+    outline: none;
+}
+
+
+.sec2 .div20
+{
+    width: 60%;
+    height: auto;
+    padding: 50px 0px;
+    background-color: #363131e3;
+    border: 3px solid #DDD;
+    margin: 0px auto;
+    box-shadow: 10px 10px 10px;
+    position: relative;
+    border-radius: 22px;
+
+}
+
+.sec2 .image_f img
+{
+    width: 68%;
+
+}
+.sec2 .image_f{
+    position: absolute;
+    top: 0;
+    left: -76px;
+    height: 150px;
+
+}
+
+.sec2 .div20 h1
+{
+    color: white;
+    font-weight: bolder;
+}
+.div__quse ul li
+{
+    display: inline;
+    margin: 0px 10px;
+}
+.div__quse
+{
+    margin: 40px 0px;
+}
+.div__quse ul li
+{
+    color: white;
+}
+.div__quse img
+{
+    width: 150px;
+    height: 120px;
+}
+
+.div20 input
+{
+    width: 50%;
+    margin:20px auto;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid #898975;
+    background-color: #36313100;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-align: right;
+    transition: all 1s ease-in-out;
+
+}
+.div20 input:focus
+{   
+    transform: scale(0.9 , 0.9);
+}
+.div20 button
+{
+    min-width: 50%;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+
+}
+.div20 button:focus
+{
+    border: none;
+    outline: none;
+}
+.div20 button:active
+{
+    border: none;
+    outline: none;
+}
+
+
+.sec2 .div21
+{
+    width: 60%;
+    height: auto;
+    padding: 50px 0px;
+    background-color: #363131e3;
+    border: 3px solid #DDD;
+    margin: 0px auto;
+    box-shadow: 10px 10px 10px;
+    position: relative;
+    border-radius: 22px;
+
+}
+
+.sec2 .image_f img
+{
+    width: 68%;
+
+}
+.sec2 .image_f{
+    position: absolute;
+    top: 0;
+    left: -76px;
+    height: 150px;
+
+}
+
+.sec2 .div21 h1
+{
+    color: white;
+    font-weight: bolder;
+}
+.div__quse ul li
+{
+    display: inline;
+    margin: 0px 10px;
+}
+.div__quse
+{
+    margin: 40px 0px;
+}
+.div__quse ul li
+{
+    color: white;
+}
+.div__quse img
+{
+    width: 150px;
+    height: 120px;
+}
+
+.div21 input
+{
+    width: 50%;
+    margin:20px auto;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid #898975;
+    background-color: #36313100;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-align: right;
+    transition: all 1s ease-in-out;
+
+}
+.div21 input:focus
+{   
+    transform: scale(0.9 , 0.9);
+}
+.div21 button
+{
+    min-width: 50%;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+
+}
+.div21 button:focus
+{
+    border: none;
+    outline: none;
+}
+.div21 button:active
+{
+    border: none;
+    outline: none;
+}
+
+
+
+.sec2 .div22
+{
+    width: 60%;
+    height: auto;
+    padding: 50px 0px;
+    background-color: #363131e3;
+    border: 3px solid #DDD;
+    margin: 0px auto;
+    box-shadow: 10px 10px 10px;
+    position: relative;
+    border-radius: 22px;
+
+}
+
+.sec2 .image_f img
+{
+    width: 68%;
+
+}
+.sec2 .image_f{
+    position: absolute;
+    top: 0;
+    left: -76px;
+    height: 150px;
+
+}
+
+.sec2 .div22 h1
+{
+    color: white;
+    font-weight: bolder;
+}
+.div__quse ul li
+{
+    display: inline;
+    margin: 0px 10px;
+}
+.div__quse
+{
+    margin: 40px 0px;
+}
+.div__quse ul li
+{
+    color: white;
+}
+.div__quse img
+{
+    width: 150px;
+    height: 120px;
+}
+
+.div22 input
+{
+    width: 50%;
+    margin:20px auto;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid #898975;
+    background-color: #36313100;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-align: right;
+    transition: all 1s ease-in-out;
+
+}
+.div22 input:focus
+{   
+    transform: scale(0.9 , 0.9);
+}
+.div22 button
+{
+    min-width: 50%;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+
+}
+.div22 button:focus
+{
+    border: none;
+    outline: none;
+}
+.div22 button:active
+{
+    border: none;
+    outline: none;
+}
+
+
+
+.sec2 .div23
+{
+    width: 60%;
+    height: auto;
+    padding: 50px 0px;
+    background-color: #363131e3;
+    border: 3px solid #DDD;
+    margin: 0px auto;
+    box-shadow: 10px 10px 10px;
+    position: relative;
+    border-radius: 22px;
+
+}
+
+.sec2 .image_f img
+{
+    width: 68%;
+
+}
+.sec2 .image_f{
+    position: absolute;
+    top: 0;
+    left: -76px;
+    height: 150px;
+
+}
+
+.sec2 .div23 h1
+{
+    color: white;
+    font-weight: bolder;
+}
+.div__quse ul li
+{
+    display: inline;
+    margin: 0px 10px;
+}
+.div__quse
+{
+    margin: 40px 0px;
+}
+.div__quse ul li
+{
+    color: white;
+}
+.div__quse img
+{
+    width: 150px;
+    height: 120px;
+}
+
+.div23 input
+{
+    width: 50%;
+    margin:20px auto;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid #898975;
+    background-color: #36313100;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-align: right;
+    transition: all 1s ease-in-out;
+
+}
+.div23 input:focus
+{   
+    transform: scale(0.9 , 0.9);
+}
+.div23 button
+{
+    min-width: 50%;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+
+}
+.div23 button:focus
+{
+    border: none;
+    outline: none;
+}
+.div23 button:active
+{
+    border: none;
+    outline: none;
+}
+
+.sec2 .div24
+{
+    width: 60%;
+    height: auto;
+    padding: 50px 0px;
+    background-color: #363131e3;
+    border: 3px solid #DDD;
+    margin: 0px auto;
+    box-shadow: 10px 10px 10px;
+    position: relative;
+    border-radius: 22px;
+
+}
+
+.sec2 .image_f img
+{
+    width: 68%;
+
+}
+.sec2 .image_f{
+    position: absolute;
+    top: 0;
+    left: -76px;
+    height: 150px;
+
+}
+
+.sec2 .div24 h1
+{
+    color: white;
+    font-weight: bolder;
+}
+.div__quse ul li
+{
+    display: inline;
+    margin: 0px 10px;
+}
+.div__quse
+{
+    margin: 40px 0px;
+}
+.div__quse ul li
+{
+    color: white;
+}
+.div__quse img
+{
+    width: 150px;
+    height: 120px;
+}
+
+.div24 input
+{
+    width: 50%;
+    margin:20px auto;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid #898975;
+    background-color: #36313100;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-align: right;
+    transition: all 1s ease-in-out;
+
+}
+.div24 input:focus
+{   
+    transform: scale(0.9 , 0.9);
+}
+.div24 button
+{
+    min-width: 50%;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+
+}
+.div24 button:focus
+{
+    border: none;
+    outline: none;
+}
+.div24 button:active
+{
+    border: none;
+    outline: none;
+}
+
+
+
+.sec2 .div25
+{
+    width: 60%;
+    height: auto;
+    padding: 50px 0px;
+    background-color: #363131e3;
+    border: 3px solid #DDD;
+    margin: 0px auto;
+    box-shadow: 10px 10px 10px;
+    position: relative;
+    border-radius: 22px;
+
+}
+
+.sec2 .image_f img
+{
+    width: 68%;
+
+}
+.sec2 .image_f{
+    position: absolute;
+    top: 0;
+    left: -76px;
+    height: 150px;
+
+}
+
+.sec2 .div25 h1
+{
+    color: white;
+    font-weight: bolder;
+}
+.div__quse ul li
+{
+    display: inline;
+    margin: 0px 10px;
+}
+.div__quse
+{
+    margin: 40px 0px;
+}
+.div__quse ul li
+{
+    color: white;
+}
+.div__quse img
+{
+    width: 150px;
+    height: 120px;
+}
+
+.div25 input
+{
+    width: 50%;
+    margin:20px auto;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid #898975;
+    background-color: #36313100;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-align: right;
+    transition: all 1s ease-in-out;
+
+}
+.div25 input:focus
+{   
+    transform: scale(0.9 , 0.9);
+}
+.div25 button
+{
+    min-width: 50%;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+
+}
+.div25 button:focus
+{
+    border: none;
+    outline: none;
+}
+.div25 button:active
+{
+    border: none;
+    outline: none;
+}
+
+
+
+.sec2 .div26
+{
+    width: 60%;
+    height: auto;
+    padding: 50px 0px;
+    background-color: #363131e3;
+    border: 3px solid #DDD;
+    margin: 0px auto;
+    box-shadow: 10px 10px 10px;
+    position: relative;
+    border-radius: 22px;
+
+}
+
+.sec2 .image_f img
+{
+    width: 68%;
+
+}
+.sec2 .image_f{
+    position: absolute;
+    top: 0;
+    left: -76px;
+    height: 150px;
+
+}
+
+.sec2 .div26 h1
+{
+    color: white;
+    font-weight: bolder;
+}
+.div__quse ul li
+{
+    display: inline;
+    margin: 0px 10px;
+}
+.div__quse
+{
+    margin: 40px 0px;
+}
+.div__quse ul li
+{
+    color: white;
+}
+.div__quse img
+{
+    width: 150px;
+    height: 120px;
+}
+
+.div26 input
+{
+    width: 50%;
+    margin:20px auto;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid #898975;
+    background-color: #36313100;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-align: right;
+    transition: all 1s ease-in-out;
+
+}
+.div26 input:focus
+{   
+    transform: scale(0.9 , 0.9);
+}
+.div26 button
+{
+    min-width: 50%;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+
+}
+.div26 button:focus
+{
+    border: none;
+    outline: none;
+}
+.div26 button:active
+{
+    border: none;
+    outline: none;
+}
+
+
+.sec2 .div27
+{
+    width: 60%;
+    height: auto;
+    padding: 50px 0px;
+    background-color: #363131e3;
+    border: 3px solid #DDD;
+    margin: 0px auto;
+    box-shadow: 10px 10px 10px;
+    position: relative;
+    border-radius: 22px;
+
+}
+
+.sec2 .image_f img
+{
+    width: 68%;
+
+}
+.sec2 .image_f{
+    position: absolute;
+    top: 0;
+    left: -76px;
+    height: 150px;
+
+}
+
+.sec2 .div27 h1
+{
+    color: white;
+    font-weight: bolder;
+}
+.div__quse ul li
+{
+    display: inline;
+    margin: 0px 10px;
+}
+.div__quse
+{
+    margin: 40px 0px;
+}
+.div__quse ul li
+{
+    color: white;
+}
+.div__quse img
+{
+    width: 150px;
+    height: 120px;
+}
+
+.div27 input
+{
+    width: 50%;
+    margin:20px auto;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid #898975;
+    background-color: #36313100;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-align: right;
+    transition: all 1s ease-in-out;
+
+}
+.div27 input:focus
+{   
+    transform: scale(0.9 , 0.9);
+}
+.div27 button
+{
+    min-width: 50%;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+
+}
+.div27 button:focus
+{
+    border: none;
+    outline: none;
+}
+.div27 button:active
+{
+    border: none;
+    outline: none;
+}
+
+.sec2 .div28
+{
+    width: 60%;
+    height: auto;
+    padding: 50px 0px;
+    background-color: #363131e3;
+    border: 3px solid #DDD;
+    margin: 0px auto;
+    box-shadow: 10px 10px 10px;
+    position: relative;
+    border-radius: 22px;
+
+}
+
+.sec2 .image_f img
+{
+    width: 68%;
+
+}
+.sec2 .image_f{
+    position: absolute;
+    top: 0;
+    left: -76px;
+    height: 150px;
+
+}
+
+.sec2 .div28 h1
+{
+    color: white;
+    font-weight: bolder;
+}
+.div__quse ul li
+{
+    display: inline;
+    margin: 0px 10px;
+}
+.div__quse
+{
+    margin: 40px 0px;
+}
+.div__quse ul li
+{
+    color: white;
+}
+.div__quse img
+{
+    width: 150px;
+    height: 120px;
+}
+
+.div28 input
+{
+    width: 50%;
+    margin:20px auto;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid #898975;
+    background-color: #36313100;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-align: right;
+    transition: all 1s ease-in-out;
+
+}
+.div28 input:focus
+{   
+    transform: scale(0.9 , 0.9);
+}
+.div28 button
+{
+    min-width: 50%;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+
+}
+.div28 button:focus
+{
+    border: none;
+    outline: none;
+}
+.div28 button:active
+{
+    border: none;
+    outline: none;
+}
+
+
+
+.sec2 .div29
+{
+    width: 60%;
+    height: auto;
+    padding: 50px 0px;
+    background-color: #363131e3;
+    border: 3px solid #DDD;
+    margin: 0px auto;
+    box-shadow: 10px 10px 10px;
+    position: relative;
+    border-radius: 22px;
+
+}
+
+.sec2 .image_f img
+{
+    width: 68%;
+
+}
+.sec2 .image_f{
+    position: absolute;
+    top: 0;
+    left: -76px;
+    height: 150px;
+
+}
+
+.sec2 .div29 h1
+{
+    color: white;
+    font-weight: bolder;
+}
+.div__quse ul li
+{
+    display: inline;
+    margin: 0px 10px;
+}
+.div__quse
+{
+    margin: 40px 0px;
+}
+.div__quse ul li
+{
+    color: white;
+}
+.div__quse img
+{
+    width: 150px;
+    height: 120px;
+}
+
+.div29 input
+{
+    width: 50%;
+    margin:20px auto;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid #898975;
+    background-color: #36313100;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-align: right;
+    transition: all 1s ease-in-out;
+
+}
+.div29 input:focus
+{   
+    transform: scale(0.9 , 0.9);
+}
+.div29 button
+{
+    min-width: 50%;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+
+}
+.div29 button:focus
+{
+    border: none;
+    outline: none;
+}
+.div29 button:active
+{
+    border: none;
+    outline: none;
+}
+
+.sec2 .div30
+{
+    width: 60%;
+    height: auto;
+    padding: 50px 0px;
+    background-color: #363131e3;
+    border: 3px solid #DDD;
+    margin: 0px auto;
+    box-shadow: 10px 10px 10px;
+    position: relative;
+    border-radius: 22px;
+
+}
+
+.sec2 .image_f img
+{
+    width: 68%;
+
+}
+.sec2 .image_f{
+    position: absolute;
+    top: 0;
+    left: -76px;
+    height: 150px;
+
+}
+
+.sec2 .div30 h1
+{
+    color: white;
+    font-weight: bolder;
+}
+.div__quse ul li
+{
+    display: inline;
+    margin: 0px 10px;
+}
+.div__quse
+{
+    margin: 40px 0px;
+}
+.div__quse ul li
+{
+    color: white;
+}
+.div__quse img
+{
+    width: 150px;
+    height: 120px;
+}
+
+.div30 input
+{
+    width: 50%;
+    margin:20px auto;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid #898975;
+    background-color: #36313100;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-align: right;
+    transition: all 1s ease-in-out;
+
+}
+.div30 input:focus
+{   
+    transform: scale(0.9 , 0.9);
+}
+.div30 button
+{
+    min-width: 50%;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+
+}
+.div30 button:focus
+{
+    border: none;
+    outline: none;
+}
+.div30 button:active
+{
+    border: none;
+    outline: none;
+}
+
+
+
+.sec2 .result
+{
+    width: 60%;
+    height: auto;
+    padding: 50px 0px;
+    background-color: #363131e3;
+    border: 3px solid #DDD;
+    margin: 0px auto;
+    box-shadow: 10px 10px 10px;
+    position: relative;
+    border-radius: 22px;
+
+}
+.sec2 .result .div1_tru
+{
+    background-color: green;
+    width: 50%;
+    margin: auto;
+    height: 200px;
+    border-radius: 40px;
+    animation: truuuuu 1s 100000 linear;
+}
+
+@keyframes truuuuu {
+    
+    0%{box-shadow: 10px 10px 10px black;}
+    100%{box-shadow: 0px 0px 0px black;}
+}
+
+.sec2 .result .div1_fal
+{
+    background-color: red;
+    width: 50%;
+    margin: auto;
+    height: 200px;
+    border-radius: 40px;
+animation: falasss 1s 1000000 linear;
+
+}
+@keyframes falasss {
+    
+    0%{box-shadow: -10px -10px 10px black;}
+    100%{box-shadow: -0px -0px -0px black;}
+}
+
+.Loser
+{
+    color: red;
+    font-weight: bolder;
+    display: none;
+}
+
+.Winner
+{
+    color: green;
+    font-weight: bolder;
+    display: none;
+}
+#true_span 
+{
+    color: green;
+}
+#false_span
+{
+    color: red;
+}
+.div1_fal h1 , .div1_tru h1
+{
+    font-size: 36px;
+    font-weight: bolder;
+    color: white;
+    line-height: 5px;
+
+}
+.div1_fal p , .div1_tru p
+{
+    
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 25px 0px;
+}
+.result
+{
+    display: none;
+}
+.result a
+{
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 400;
+    color: wheat;
+    text-align: center;
+}
+
+.blon
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 249px;
+    width: 100%;
+    top: 200px;
+    background-image: url(../images/hapy.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 249px;
+    display: none;
+}
+/* end sec1 */
+
+
+.sec2 .div2,.sec2 .div3,.sec2 .div4,.sec2 .div5,.sec2 .div6,.sec2 .div7,.sec2 .div8,.sec2 .div9,.sec2 .div10,.sec2 .div11,.sec2 .div12,.sec2 .div13,.sec2 .div14,.sec2 .div15,.sec2 .div16,.sec2 .div17,.sec2 .div18,.sec2 .div19,.sec2 .div20,.sec2 .div21,.sec2 .div22,.sec2 .div23,.sec2 .div24,.sec2 .div25,.sec2 .div26,.sec2 .div27,.sec2 .div28,.sec2 .div29,.sec2 .div30
+{
+    display:none;
+}
+.alert1,.alert2,.alert3,.alert4,.alert5,.alert6,.alert7,.alert8,.alert9,.alert10,.alert11,.alert12,.alert13,.alert14,.alert15,.alert16,.alert17,.alert18,.alert19,.alert20,.alert21,.alert22,.alert23,.alert24,.alert25,.alert26,.alert27,.alert28,.alert29,.alert30
+{
+    background-color: #bb5555;
+    width: 50%;
+    margin: auto;
+    padding-right: 8px;
+    margin-bottom: 15px;
+    display: none;
+    height: auto;
+    animation: alert 0.5s 1000000 linear;
+
+    
+}
+@keyframes alert {
+    0%{background-color: #bb5555;}
+    100%{background-color: red;}
+    
+}
+.alert1 p,.alert2 p,.alert3 p,.alert4 p,.alert5 p,.alert6 p,.alert7 p,.alert8 p,.alert9 p,.alert10 p,.alert11 p,.alert12 p,.alert13 p,.alert14 p,.alert15 p,.alert16 p,.alert17 p,.alert18 p,.alert19 p,.alert20 p,.alert21 p,.alert22 p,.alert23 p,.alert24 p,.alert25 p,.alert26 p,.alert27 p,.alert28 p,.alert29 p,.alert30 p
+{
+    font-size: 20px;
+    text-align:right;
+    color: white;
+    font-weight: bolder;
+}
+
+
+
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+/* ///////////////////////// */
+@media (min-width:0px) and (max-width:620px)
+{
+    .sec1 .div3 {
+        width: 66px;
+        height: 45px;
+        border-radius: 100px;
+        background-color: red;
+        padding: 5px;
+        color: white;
+        margin-left: 12%;
+    }
+    
+    .me
+    {
+        color: white;
+        font-size: 24px;
+    }
+
+    .sec2 .div1,.sec2 .div2,.sec2 .div3,.sec2 .div4,.sec2 .div5,.sec2 .div6,.sec2 .div7,.sec2 .div8,.sec2 .div9,.sec2 .div10,.sec2 .div11,.sec2 .div12,.sec2 .div13,.sec2 .div14,.sec2 .div15 {
+        width: 100%;
+    }
+
+
+    .div1 input,.div2 input,.div3 input,.div4 input,.div5 input,.div6 input,.div7 input,.div8 input,.div9 input,.div10 input,.div11 input,.div12 input,.div13 input,.div14 input,.div15 input,.div16 input,.div17 input,.div18 input,.div19 input,.div20 input,.div21 input,.div22 input,.div23 input,.div24 input,.div25 input,.div26 input,.div27 input,.div28 input,.div29 input,.div30 input {
+        width: 80%;
+        margin: 20px auto;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid #898975;
+        background-color: #36313100;
+        padding: 10px;
+        font-size: 25px;
+        font-weight: bolder;
+        color: white;
+        text-align: right;
+        transition: all 1s ease-in-out;
+    }
+
+
+
+    .sec2 .result
+    {
+        width: 100%;
+        height: auto;
+        padding: 50px 0px;
+        background-color: #363131e3;
+        border: 3px solid #DDD;
+        margin: 0px auto;
+        box-shadow: 10px 10px 10px;
+        position: relative;
+        border-radius: 22px;
+    
+    }
+
+
+
+
+
+}
+
+
+@media (min-width:375px) and (max-width:375px)
+{
+    .sec1 .div3 {
+        width: 66px;
+        height: 45px;
+        border-radius: 100px;
+        background-color: red;
+        padding: 5px;
+        color: white;
+        margin-left: 35%;
+    }
+    .me
+    {
+        color: white;
+        font-size: 24px;
+    }
+
+    .sec2 .div1,.sec2 .div2,.sec2 .div3,.sec2 .div4,.sec2 .div5,.sec2 .div6,.sec2 .div7,.sec2 .div8,.sec2 .div9,.sec2 .div10,.sec2 .div11,.sec2 .div12,.sec2 .div13,.sec2 .div14,.sec2 .div15,.sec2 .div16,.sec2 .div17,.sec2 .div18,.sec2 .div19,.sec2 .div20,.sec2 .div21,.sec2 .div22,.sec2 .div23,.sec2 .div24,.sec2 .div25,.sec2 .div26,.sec2 .div27,.sec2 .div28,.sec2 .div29,.sec2 .div30,.result {
+        width: 100%;
+    }
+
+
+    .div1 input,.div2 input,.div3 input,.div4 input,.div5 input,.div6 input,.div7 input,.div8 input,.div9 input,.div10 input,.div11 input,.div12 input,.div13 input,.div14 input,.div15 input,.div16 input,.div17 input,.div18 input,.div19 input,.div20 input,.div21 input,.div22 input,.div23 input,.div24 input,.div25 input,.div26 input,.div27 input,.div28 input,.div29 input,.div30 input {
+        width: 80%;
+        margin: 20px auto;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid #898975;
+        background-color: #36313100;
+        padding: 10px;
+        font-size: 25px;
+        font-weight: bolder;
+        color: white;
+        text-align: right;
+        transition: all 1s ease-in-out;
+    }
+
+
+    .agaba1, .agaba2, .agaba3, .agaba4, .agaba5, .agaba6, .agaba7, .agaba8, .agaba9, .agaba10, .agaba11, .agaba12, .agaba13, .agaba14, .agaba15, .agaba16, .agaba17, .agaba18, .agaba19, .agaba20, .agaba21, .agaba22, .agaba23, .agaba24, .agaba25, .agaba26, .agaba27, .agaba28, .agaba29, .agaba30 {
+        font-size: 27px;
+        color: rgb(109, 196, 109);
+        font-weight: bolder;
+        display: none;
+        width: 304px;
+        position: relative;
+        right: 111%;
+
+    }
+    
+    
+    
+    
+    
+    .first .de1 button {
+        min-width: 60%;
+        height: 66px;
+        font-size: 22px;
+        font-weight: bolder;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        margin: 10px 0px;
+    }
+
+    .de16 input {
+        margin: 20px auto;
+        height: 48px;
+        border-radius: 11px;
+        width: 83%;
+        font-size: 20px;
+        font-weight: bolder;
+        text-align: right;
+        padding: 10px;
+    }
+
+    .first .de12 p {
+        text-align: right;
+        font-size: 18px;
+        color: white;
+        font-weight: bolder;
+        padding: 5px 0px;
+    }
+
+    .first .de12 h5 {
+        text-align: center;
+        font-size: 24px;
+        color: white;
+        padding: 4px 0px;
+    }
+
+
+    .first .de12 button {
+        min-width: 40%;
+        height: 66px;
+        font-size: 32px;
+        font-weight: bolder;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        margin: 0px 0px;
+    }
+
+    .sec2 .result {
+        width: 100%;
+        height: auto;
+        padding: 50px 0px;
+        background-color: #363131e3;
+        border: 3px solid #DDD;
+        margin: 0px auto;
+        box-shadow: 10px 10px 10px;
+        position: relative;
+        border-radius: 22px;
+    }
+
+}
+
+@media (min-width:414px) and (max-width:414px)
+{
+    .sec1 .div3 {
+        width: 66px;
+        height: 45px;
+        border-radius: 100px;
+        background-color: red;
+        padding: 5px;
+        color: white;
+        margin-left: 35%;
+    }
+    .me
+    {
+        color: white;
+        font-size: 24px;
+    }
+
+    .sec2 .div1,.sec2 .div2,.sec2 .div3,.sec2 .div4,.sec2 .div5,.sec2 .div6,.sec2 .div7,.sec2 .div8,.sec2 .div9,.sec2 .div10,.sec2 .div11,.sec2 .div12,.sec2 .div13,.sec2 .div14,.sec2 .div15,.sec2 .div16,.sec2 .div17,.sec2 .div18,.sec2 .div19,.sec2 .div20,.sec2 .div21,.sec2 .div22,.sec2 .div23,.sec2 .div24,.sec2 .div25,.sec2 .div26,.sec2 .div27,.sec2 .div28,.sec2 .div29,.sec2 .div30,.result {
+        width: 100%;
+    }
+
+
+    .div1 input,.div2 input,.div3 input,.div4 input,.div5 input,.div6 input,.div7 input,.div8 input,.div9 input,.div10 input,.div11 input,.div12 input,.div13 input,.div14 input,.div15 input,.div16 input,.div17 input,.div18 input,.div19 input,.div20 input,.div21 input,.div22 input,.div23 input,.div24 input,.div25 input,.div26 input,.div27 input,.div28 input,.div29 input,.div30 input {
+        width: 80%;
+        margin: 20px auto;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid #898975;
+        background-color: #36313100;
+        padding: 10px;
+        font-size: 25px;
+        font-weight: bolder;
+        color: white;
+        text-align: right;
+        transition: all 1s ease-in-out;
+    }
+
+
+
+    .agaba1, .agaba2, .agaba3, .agaba4, .agaba5, .agaba6, .agaba7, .agaba8, .agaba9, .agaba10, .agaba11, .agaba12, .agaba13, .agaba14, .agaba15, .agaba16, .agaba17, .agaba18, .agaba19, .agaba20, .agaba21, .agaba22, .agaba23, .agaba24, .agaba25, .agaba26, .agaba27, .agaba28, .agaba29, .agaba30 {
+        font-size: 27px;
+        color: rgb(109, 196, 109);
+        font-weight: bolder;
+        display: none;
+        width: 304px;
+        position: relative;
+        right: 111%;
+
+    }
+
+    .first .de1 button {
+        min-width: 60%;
+        height: 66px;
+        font-size: 22px;
+        font-weight: bolder;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        margin: 10px 0px;
+    }
+
+    .de16 input {
+        margin: 20px auto;
+        height: 48px;
+        border-radius: 11px;
+        width: 83%;
+        font-size: 20px;
+        font-weight: bolder;
+        text-align: right;
+        padding: 10px;
+    }
+
+      .first .de12 p {
+        text-align: right;
+        font-size: 18px;
+        color: white;
+        font-weight: bolder;
+        padding: 5px 0px;
+    }
+
+    .first .de12 h5 {
+        text-align: center;
+        font-size: 24px;
+        color: white;
+        padding: 4px 0px;
+    }
+
+
+    .first .de12 button {
+        min-width: 40%;
+        height: 66px;
+        font-size: 32px;
+        font-weight: bolder;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        margin: 0px 0px;
+    }
+    .sec2 .result {
+        width: 100%;
+        height: auto;
+        padding: 50px 0px;
+        background-color: #363131e3;
+        border: 3px solid #DDD;
+        margin: 0px auto;
+        box-shadow: 10px 10px 10px;
+        position: relative;
+        border-radius: 22px;
+    }
+
+
+
+
+}
+
+@media (min-width:390px) and (max-width:393px)
+{
+    .sec1 .div3 {
+        width: 66px;
+        height: 45px;
+        border-radius: 100px;
+        background-color: red;
+        padding: 5px;
+        color: white;
+        margin-left: 35%;
+    }
+    .me
+    {
+        color: white;
+        font-size: 24px;
+    }
+
+    .sec2 .div1,.sec2 .div2,.sec2 .div3,.sec2 .div4,.sec2 .div5,.sec2 .div6,.sec2 .div7,.sec2 .div8,.sec2 .div9,.sec2 .div10,.sec2 .div11,.sec2 .div12,.sec2 .div13,.sec2 .div14,.sec2 .div15,.sec2 .div16,.sec2 .div17,.sec2 .div18,.sec2 .div19,.sec2 .div20,.sec2 .div21,.sec2 .div22,.sec2 .div23,.sec2 .div24,.sec2 .div25,.sec2 .div26,.sec2 .div27,.sec2 .div28,.sec2 .div29,.sec2 .div30,.result {
+        width: 100%;
+    }
+
+
+    .div1 input,.div2 input,.div3 input,.div4 input,.div5 input,.div6 input,.div7 input,.div8 input,.div9 input,.div10 input,.div11 input,.div12 input,.div13 input,.div14 input,.div15 input,.div16 input,.div17 input,.div18 input,.div19 input,.div20 input,.div21 input,.div22 input,.div23 input,.div24 input,.div25 input,.div26 input,.div27 input,.div28 input,.div29 input,.div30 input {
+        width: 80%;
+        margin: 20px auto;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid #898975;
+        background-color: #36313100;
+        padding: 10px;
+        font-size: 25px;
+        font-weight: bolder;
+        color: white;
+        text-align: right;
+        transition: all 1s ease-in-out;
+    }
+
+
+    .agaba1, .agaba2, .agaba3, .agaba4, .agaba5, .agaba6, .agaba7, .agaba8, .agaba9, .agaba10, .agaba11, .agaba12, .agaba13, .agaba14, .agaba15, .agaba16, .agaba17, .agaba18, .agaba19, .agaba20, .agaba21, .agaba22, .agaba23, .agaba24, .agaba25, .agaba26, .agaba27, .agaba28, .agaba29, .agaba30 {
+        font-size: 27px;
+        color: rgb(109, 196, 109);
+        font-weight: bolder;
+        display: none;
+        width: 304px;
+        position: relative;
+        right: 111%;
+
+    }
+
+    .first .de1 button {
+        min-width: 60%;
+        height: 66px;
+        font-size: 22px;
+        font-weight: bolder;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        margin: 10px 0px;
+    }
+
+    .de16 input {
+        margin: 20px auto;
+        height: 48px;
+        border-radius: 11px;
+        width: 83%;
+        font-size: 20px;
+        font-weight: bolder;
+        text-align: right;
+        padding: 10px;
+    }
+
+    .first .de12 p {
+        text-align: right;
+        font-size: 18px;
+        color: white;
+        font-weight: bolder;
+        padding: 5px 0px;
+    }
+
+    .first .de12 h5 {
+        text-align: center;
+        font-size: 24px;
+        color: white;
+        padding: 4px 0px;
+    }
+
+
+    .first .de12 button {
+        min-width: 40%;
+        height: 66px;
+        font-size: 32px;
+        font-weight: bolder;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        margin: 0px 0px;
+    }
+    
+    .sec2 .result {
+        width: 100%;
+        height: auto;
+        padding: 50px 0px;
+        background-color: #363131e3;
+        border: 3px solid #DDD;
+        margin: 0px auto;
+        box-shadow: 10px 10px 10px;
+        position: relative;
+        border-radius: 22px;
+    }
+
+}
+
+@media (min-width:360px) and (max-width:360px)
+{
+    .sec1 .div3 {
+        width: 66px;
+        height: 45px;
+        border-radius: 100px;
+        background-color: red;
+        padding: 5px;
+        color: white;
+        margin-left: 35%;
+    }
+    .me
+    {
+        color: white;
+        font-size: 24px;
+    }
+
+    .sec2 .div1,.sec2 .div2,.sec2 .div3,.sec2 .div4,.sec2 .div5,.sec2 .div6,.sec2 .div7,.sec2 .div8,.sec2 .div9,.sec2 .div10,.sec2 .div11,.sec2 .div12,.sec2 .div13,.sec2 .div14,.sec2 .div15,.sec2 .div16,.sec2 .div17,.sec2 .div18,.sec2 .div19,.sec2 .div20,.sec2 .div21,.sec2 .div22,.sec2 .div23,.sec2 .div24,.sec2 .div25,.sec2 .div26,.sec2 .div27,.sec2 .div28,.sec2 .div29,.sec2 .div30,.result {
+        width: 100%;
+    }
+
+
+    .div1 input,.div2 input,.div3 input,.div4 input,.div5 input,.div6 input,.div7 input,.div8 input,.div9 input,.div10 input,.div11 input,.div12 input,.div13 input,.div14 input,.div15 input,.div16 input,.div17 input,.div18 input,.div19 input,.div20 input,.div21 input,.div22 input,.div23 input,.div24 input,.div25 input,.div26 input,.div27 input,.div28 input,.div29 input,.div30 input {
+        width: 80%;
+        margin: 20px auto;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid #898975;
+        background-color: #36313100;
+        padding: 10px;
+        font-size: 25px;
+        font-weight: bolder;
+        color: white;
+        text-align: right;
+        transition: all 1s ease-in-out;
+    }
+
+
+
+    .agaba1, .agaba2, .agaba3, .agaba4, .agaba5, .agaba6, .agaba7, .agaba8, .agaba9, .agaba10, .agaba11, .agaba12, .agaba13, .agaba14, .agaba15, .agaba16, .agaba17, .agaba18, .agaba19, .agaba20, .agaba21, .agaba22, .agaba23, .agaba24, .agaba25, .agaba26, .agaba27, .agaba28, .agaba29, .agaba30 {
+        font-size: 27px;
+        color: rgb(109, 196, 109);
+        font-weight: bolder;
+        display: none;
+        width: 304px;
+        position: relative;
+        right: 111%;
+
+    }
+
+
+    .first .de1 button {
+        min-width: 60%;
+        height: 66px;
+        font-size: 22px;
+        font-weight: bolder;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        margin: 10px 0px;
+    }
+
+    .de16 input {
+        margin: 20px auto;
+        height: 48px;
+        border-radius: 11px;
+        width: 83%;
+        font-size: 20px;
+        font-weight: bolder;
+        text-align: right;
+        padding: 10px;
+    }
+
+    .first .de12 p {
+        text-align: right;
+        font-size: 18px;
+        color: white;
+        font-weight: bolder;
+        padding: 5px 0px;
+    }
+
+    .first .de12 h5 {
+        text-align: center;
+        font-size: 24px;
+        color: white;
+        padding: 4px 0px;
+    }
+
+
+    .first .de12 button {
+        min-width: 40%;
+        height: 66px;
+        font-size: 32px;
+        font-weight: bolder;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        margin: 0px 0px;
+    }
+    .sec2 .result {
+        width: 100%;
+        height: auto;
+        padding: 50px 0px;
+        background-color: #363131e3;
+        border: 3px solid #DDD;
+        margin: 0px auto;
+        box-shadow: 10px 10px 10px;
+        position: relative;
+        border-radius: 22px;
+    }
+
+
+}
+
+@media (min-width:412px) and (max-width:412px)
+{
+    .sec1 .div3 {
+        width: 66px;
+        height: 45px;
+        border-radius: 100px;
+        background-color: red;
+        padding: 5px;
+        color: white;
+        margin-left: 35%;
+    }
+    .me
+    {
+        color: white;
+        font-size: 24px;
+    }
+
+    .sec2 .div1,.sec2 .div2,.sec2 .div3,.sec2 .div4,.sec2 .div5,.sec2 .div6,.sec2 .div7,.sec2 .div8,.sec2 .div9,.sec2 .div10,.sec2 .div11,.sec2 .div12,.sec2 .div13,.sec2 .div14,.sec2 .div15,.sec2 .div16,.sec2 .div17,.sec2 .div18,.sec2 .div19,.sec2 .div20,.sec2 .div21,.sec2 .div22,.sec2 .div23,.sec2 .div24,.sec2 .div25,.sec2 .div26,.sec2 .div27,.sec2 .div28,.sec2 .div29,.sec2 .div30,.result {
+        width: 100%;
+    }
+
+
+    .div1 input,.div2 input,.div3 input,.div4 input,.div5 input,.div6 input,.div7 input,.div8 input,.div9 input,.div10 input,.div11 input,.div12 input,.div13 input,.div14 input,.div15 input,.div16 input,.div17 input,.div18 input,.div19 input,.div20 input,.div21 input,.div22 input,.div23 input,.div24 input,.div25 input,.div26 input,.div27 input,.div28 input,.div29 input,.div30 input {
+        width: 80%;
+        margin: 20px auto;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid #898975;
+        background-color: #36313100;
+        padding: 10px;
+        font-size: 25px;
+        font-weight: bolder;
+        color: white;
+        text-align: right;
+        transition: all 1s ease-in-out;
+    }
+
+
+
+
+    .agaba1, .agaba2, .agaba3, .agaba4, .agaba5, .agaba6, .agaba7, .agaba8, .agaba9, .agaba10, .agaba11, .agaba12, .agaba13, .agaba14, .agaba15, .agaba16, .agaba17, .agaba18, .agaba19, .agaba20, .agaba21, .agaba22, .agaba23, .agaba24, .agaba25, .agaba26, .agaba27, .agaba28, .agaba29, .agaba30 {
+        font-size: 27px;
+        color: rgb(109, 196, 109);
+        font-weight: bolder;
+        display: none;
+        width: 304px;
+        position: relative;
+        right: 111%;
+
+    }
+
+    .first .de1 button {
+        min-width: 60%;
+        height: 66px;
+        font-size: 22px;
+        font-weight: bolder;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        margin: 10px 0px;
+    }
+
+    .de16 input {
+        margin: 20px auto;
+        height: 48px;
+        border-radius: 11px;
+        width: 83%;
+        font-size: 20px;
+        font-weight: bolder;
+        text-align: right;
+        padding: 10px;
+    }
+
+    .first .de12 p {
+        text-align: right;
+        font-size: 18px;
+        color: white;
+        font-weight: bolder;
+        padding: 5px 0px;
+    }
+
+    .first .de12 h5 {
+        text-align: center;
+        font-size: 24px;
+        color: white;
+        padding: 4px 0px;
+    }
+
+
+    .first .de12 button {
+        min-width: 40%;
+        height: 66px;
+        font-size: 32px;
+        font-weight: bolder;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        margin: 0px 0px;
+    }
+    .sec2 .result {
+        width: 100%;
+        height: auto;
+        padding: 50px 0px;
+        background-color: #363131e3;
+        border: 3px solid #DDD;
+        margin: 0px auto;
+        box-shadow: 10px 10px 10px;
+        position: relative;
+        border-radius: 22px;
+    }
+
+
+
+}
+
+@media (min-width:414px) and (max-width:414px)
+{
+    .sec1 .div3 {
+        width: 66px;
+        height: 45px;
+        border-radius: 100px;
+        background-color: red;
+        padding: 5px;
+        color: white;
+        margin-left: 35%;
+    }
+    .me
+    {
+        color: white;
+        font-size: 24px;
+    }
+
+    .sec2 .div1,.sec2 .div2,.sec2 .div3,.sec2 .div4,.sec2 .div5,.sec2 .div6,.sec2 .div7,.sec2 .div8,.sec2 .div9,.sec2 .div10,.sec2 .div11,.sec2 .div12,.sec2 .div13,.sec2 .div14,.sec2 .div15,.sec2 .div16,.sec2 .div17,.sec2 .div18,.sec2 .div19,.sec2 .div20,.sec2 .div21,.sec2 .div22,.sec2 .div23,.sec2 .div24,.sec2 .div25,.sec2 .div26,.sec2 .div27,.sec2 .div28,.sec2 .div29,.sec2 .div30,.result {
+        width: 100%;
+    }
+
+
+    .div1 input,.div2 input,.div3 input,.div4 input,.div5 input,.div6 input,.div7 input,.div8 input,.div9 input,.div10 input,.div11 input,.div12 input,.div13 input,.div14 input,.div15 input,.div16 input,.div17 input,.div18 input,.div19 input,.div20 input,.div21 input,.div22 input,.div23 input,.div24 input,.div25 input,.div26 input,.div27 input,.div28 input,.div29 input,.div30 input {
+        width: 80%;
+        margin: 20px auto;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid #898975;
+        background-color: #36313100;
+        padding: 10px;
+        font-size: 25px;
+        font-weight: bolder;
+        color: white;
+        text-align: right;
+        transition: all 1s ease-in-out;
+    }
+
+
+
+
+    .agaba1, .agaba2, .agaba3, .agaba4, .agaba5, .agaba6, .agaba7, .agaba8, .agaba9, .agaba10, .agaba11, .agaba12, .agaba13, .agaba14, .agaba15, .agaba16, .agaba17, .agaba18, .agaba19, .agaba20, .agaba21, .agaba22, .agaba23, .agaba24, .agaba25, .agaba26, .agaba27, .agaba28, .agaba29, .agaba30 {
+        font-size: 27px;
+        color: rgb(109, 196, 109);
+        font-weight: bolder;
+        display: none;
+        width: 304px;
+        position: relative;
+        right: 111%;
+
+    }
+
+    .first .de1 button {
+        min-width: 60%;
+        height: 66px;
+        font-size: 22px;
+        font-weight: bolder;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        margin: 10px 0px;
+    }
+
+    .de16 input {
+        margin: 20px auto;
+        height: 48px;
+        border-radius: 11px;
+        width: 83%;
+        font-size: 20px;
+        font-weight: bolder;
+        text-align: right;
+        padding: 10px;
+    }
+
+    .first .de12 p {
+        text-align: right;
+        font-size: 18px;
+        color: white;
+        font-weight: bolder;
+        padding: 5px 0px;
+    }
+
+    .first .de12 h5 {
+        text-align: center;
+        font-size: 24px;
+        color: white;
+        padding: 4px 0px;
+    }
+
+
+    .first .de12 button {
+        min-width: 40%;
+        height: 66px;
+        font-size: 32px;
+        font-weight: bolder;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        margin: 0px 0px;
+    }
+    .sec2 .result {
+        width: 100%;
+        height: auto;
+        padding: 50px 0px;
+        background-color: #363131e3;
+        border: 3px solid #DDD;
+        margin: 0px auto;
+        box-shadow: 10px 10px 10px;
+        position: relative;
+        border-radius: 22px;
+    }
+
+
+}
+
+@media (min-width:540px) and (max-width:540px)
+{
+    .sec1 .div3 {
+        width: 66px;
+        height: 45px;
+        border-radius: 100px;
+        background-color: red;
+        padding: 5px;
+        color: white;
+        margin-left: 35%;
+    }
+    .me
+    {
+        color: white;
+        font-size: 24px;
+    }
+
+    .sec2 .div1,.sec2 .div2,.sec2 .div3,.sec2 .div4,.sec2 .div5,.sec2 .div6,.sec2 .div7,.sec2 .div8,.sec2 .div9,.sec2 .div10,.sec2 .div11,.sec2 .div12,.sec2 .div13,.sec2 .div14,.sec2 .div15,.sec2 .div16,.sec2 .div17,.sec2 .div18,.sec2 .div19,.sec2 .div20,.sec2 .div21,.sec2 .div22,.sec2 .div23,.sec2 .div24,.sec2 .div25,.sec2 .div26,.sec2 .div27,.sec2 .div28,.sec2 .div29,.sec2 .div30,.result {
+        width: 100%;
+    }
+
+
+    .div1 input,.div2 input,.div3 input,.div4 input,.div5 input,.div6 input,.div7 input,.div8 input,.div9 input,.div10 input,.div11 input,.div12 input,.div13 input,.div14 input,.div15 input,.div16 input,.div17 input,.div18 input,.div19 input,.div20 input,.div21 input,.div22 input,.div23 input,.div24 input,.div25 input,.div26 input,.div27 input,.div28 input,.div29 input,.div30 input {
+        width: 80%;
+        margin: 20px auto;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid #898975;
+        background-color: #36313100;
+        padding: 10px;
+        font-size: 25px;
+        font-weight: bolder;
+        color: white;
+        text-align: right;
+        transition: all 1s ease-in-out;
+    }
+
+
+
+    .agaba1, .agaba2, .agaba3, .agaba4, .agaba5, .agaba6, .agaba7, .agaba8, .agaba9, .agaba10, .agaba11, .agaba12, .agaba13, .agaba14, .agaba15, .agaba16, .agaba17, .agaba18, .agaba19, .agaba20, .agaba21, .agaba22, .agaba23, .agaba24, .agaba25, .agaba26, .agaba27, .agaba28, .agaba29, .agaba30 {
+        font-size: 27px;
+        color: rgb(109, 196, 109);
+        font-weight: bolder;
+        display: none;
+        width: 304px;
+        position: relative;
+        right: 48%;
+    }
+
+    .first .de1 button {
+        min-width: 60%;
+        height: 66px;
+        font-size: 22px;
+        font-weight: bolder;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        margin: 10px 0px;
+    }
+
+    .de16 input {
+        margin: 20px auto;
+        height: 48px;
+        border-radius: 11px;
+        width: 83%;
+        font-size: 20px;
+        font-weight: bolder;
+        text-align: right;
+        padding: 10px;
+    }
+
+    .first .de12 p {
+        text-align: right;
+        font-size: 18px;
+        color: white;
+        font-weight: bolder;
+        padding: 5px 0px;
+    }
+
+    .first .de12 h5 {
+        text-align: center;
+        font-size: 24px;
+        color: white;
+        padding: 4px 0px;
+    }
+
+
+    .first .de12 button {
+        min-width: 40%;
+        height: 66px;
+        font-size: 32px;
+        font-weight: bolder;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        margin: 0px 0px;
+    }
+    .sec2 .result {
+        width: 100%;
+        height: auto;
+        padding: 50px 0px;
+        background-color: #363131e3;
+        border: 3px solid #DDD;
+        margin: 0px auto;
+        box-shadow: 10px 10px 10px;
+        position: relative;
+        border-radius: 22px;
+    }
+
+
+}
+
+@media (min-width:280px) and (max-width:280px)
+{
+    .sec1 .div3 {
+        width: 66px;
+        height: 45px;
+        border-radius: 100px;
+        background-color: red;
+        padding: 5px;
+        color: white;
+        margin-left: 12%;
+    }
+    
+    .me
+    {
+        color: white;
+        font-size: 24px;
+    }
+
+    .sec2 .div1,.sec2 .div2,.sec2 .div3,.sec2 .div4,.sec2 .div5,.sec2 .div6,.sec2 .div7,.sec2 .div8,.sec2 .div9,.sec2 .div10,.sec2 .div11,.sec2 .div12,.sec2 .div13,.sec2 .div14,.sec2 .div15,.sec2 .div16,.sec2 .div17,.sec2 .div18,.sec2 .div19,.sec2 .div20,.sec2 .div21,.sec2 .div22,.sec2 .div23,.sec2 .div24,.sec2 .div25,.sec2 .div26,.sec2 .div27,.sec2 .div28,.sec2 .div29,.sec2 .div30,.result {
+        width: 100%;
+    }
+
+
+    .div1 input,.div2 input,.div3 input,.div4 input,.div5 input,.div6 input,.div7 input,.div8 input,.div9 input,.div10 input,.div11 input,.div12 input,.div13 input,.div14 input,.div15 input,.div16 input,.div17 input,.div18 input,.div19 input,.div20 input,.div21 input,.div22 input,.div23 input,.div24 input,.div25 input,.div26 input,.div27 input,.div28 input,.div29 input,.div30 input {
+        width: 80%;
+        margin: 20px auto;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid #898975;
+        background-color: #36313100;
+        padding: 10px;
+        font-size: 25px;
+        font-weight: bolder;
+        color: white;
+        text-align: right;
+        transition: all 1s ease-in-out;
+    }
+
+
+
+
+    .agaba1, .agaba2, .agaba3, .agaba4, .agaba5, .agaba6, .agaba7, .agaba8, .agaba9, .agaba10, .agaba11, .agaba12, .agaba13, .agaba14, .agaba15, .agaba16, .agaba17, .agaba18, .agaba19, .agaba20, .agaba21, .agaba22, .agaba23, .agaba24, .agaba25, .agaba26, .agaba27, .agaba28, .agaba29, .agaba30 {
+        font-size: 21px;
+        color: rgb(109, 196, 109);
+        font-weight: bolder;
+        display: none;
+        width: 304px;
+        position: relative;
+        right: 197%;
+    }
+
+
+    .first .de1 button {
+        min-width: 60%;
+        height: 66px;
+        font-size: 22px;
+        font-weight: bolder;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        margin: 10px 0px;
+    }
+
+    .de16 input {
+        margin: 20px auto;
+        height: 48px;
+        border-radius: 11px;
+        width: 83%;
+        font-size: 20px;
+        font-weight: bolder;
+        text-align: right;
+        padding: 10px;
+    }
+
+  
+
+
+.first .de12 p {
+    text-align: right;
+    font-size: 18px;
+    color: white;
+    font-weight: bolder;
+    padding: 5px 0px;
+}
+
+.first .de12 h5 {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    padding: 4px 0px;
+}
+
+
+.first .de12 button {
+    min-width: 40%;
+    height: 66px;
+    font-size: 32px;
+    font-weight: bolder;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    margin: 0px 0px;
+}
+.sec2 .result {
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+    background-color: #363131e3;
+    border: 3px solid #DDD;
+    margin: 0px auto;
+    box-shadow: 10px 10px 10px;
+    position: relative;
+    border-radius: 22px;
+}
+
+}

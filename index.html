@@ -1,0 +1,1662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> my game </title>
+    <link rel="shortcut icon" href="./images/action.png">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/html5shiv.min.js"></script>
+    <script src="./js/respond.min.js"></script>
+    <script src="./js/all.min.js"></script>
+
+</head>
+<body>
+
+<section class="first text-center" >
+    <div class="container">
+        <div class="row row1">
+            <div class="col-lg-12">
+                <div class="div1">
+                    <h1>Movies Game With Pictures </h1>
+                </div>
+            </div>
+           
+        </div>
+         <div class="row row2" style="display: none;">
+            <div class="col-lg-12">
+                <div class="de1">
+                    <h1> معلومات عن اللعبة قبل البدء </h1>
+                    <button id="btn_row2" class="btn btn-primary">
+                        اضغط 
+                    </button>
+                </div>
+            </div>
+           
+        </div>
+
+
+        <div class="row row5 " style="display: none;">
+            <div class="col-lg-12">
+                <div class="de16">
+                <h5>    </h5>
+                    
+                <input id="write_your_name" type="text" class="form-control" placeholder="اكتب اسمك">
+                    <div class="khon"> <bdi> ! </bdi>  اكتب اسمك   </div>
+                <button id="btn_row5" class="btn btn-primary">
+                        موافق  
+                    </button>
+                </div>
+            </div>
+           
+        </div>
+
+        <div class="row row3 " style="display: none;">
+            <div class="col-lg-12">
+                <div class="de12">
+            <h5> <span style="background-color: rgb(63, 32, 32); color:white;"> <i class="fa-regular fa-face-smile"></i></span>  اهلا بكم فى لعبة افلام بواسطة  الصور    </h5>
+                    <p class="bn">
+                         سوف اشرح بعض المعلومات حول اللعبة وهى كالاتى
+                         
+                    </p>
+              
+                    <p>
+                سيظهر لك قائمة بها صور وحقل ادخال عشان تكتب فية اسم الفيلم ثم تضغط موافق      
+                    </p>
+                    
+                    <p>
+                        <span>  ملحوظة هااامة =====>  لا تكتب فى حقل الادخال كلمة فيلم اكتب اسم الفيلم على طول </span>
+                    </p>
+                    <p>
+                        علشان تنجح فى اختبار اللعبة لابد ان تحصل على 15 نقطة  او اكثر اما اذا حصلت على اقل من 15 نقطة فسوف تخسر
+                    </p>
+                    <button id="btn_row3" class="btn btn-primary">
+                        هيا بنا نبدا  
+                    </button>
+                </div>
+            </div>
+           
+        </div>
+
+
+        <div class="row row4" style="display: none;">
+            <div class="col-lg-12">
+                <div class="de13">
+                    <h5 id="q3"> 3  </h5>
+                    <h5 id="q2"> 2  </h5>
+                    <h5 id="q1"> 1  </h5>
+                   
+                   
+                </div>
+            </div>
+           
+        </div>
+
+    </div>
+</section>
+
+    <section class="sec1  text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-4" >
+                        <div id="d_tru" class="div1" style="display:inlin-block ;">
+                          <span class="glyphicon glyphicon-ok
+                          correct"></span>
+                        </div>
+                        <h1 id="tr" class="true"> 0 </h1>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6 col-xs-4"style="text-align: center;">
+                        <div class="div2">
+                            
+             <h1 id="me" class="me"> 
+                
+                <span class="glyphicon glyphicon-user
+                "></span>    
+              </h1>
+              <p id="ag1" class="agaba1">  الاجابة الصحيحة : اضحك الصورة تطلع حلوة </p>
+              <p id="ag2" class="agaba2">  الاجابة الصحيحة : ملاكى اسكندرية </p>
+              <p id="ag3" class="agaba3">  الاجابة الصحيحة : على باب الوزير  </p>
+              <p id="ag4" class="agaba4">  الاجابة الصحيحة : محامى خلع  </p>
+              <p id="ag5" class="agaba5">  الاجابة الصحيحة : الجريمة الضاحكة   </p>
+              <p id="ag6" class="agaba6">  الاجابة الصحيحة : بلد البنات  </p>
+              <p id="ag7" class="agaba7">  الاجابة الصحيحة : حب فى الزنزانة  </p>
+              <p id="ag8" class="agaba8">  الاجابة الصحيحة : البية البواب  </p>
+              <p id="ag9" class="agaba9">  الاجابة الصحيحة : اللص والكلاب  </p>
+              <p id="ag10" class="agaba10">  الاجابة الصحيحة : الانس والجن  </p>
+              <p id="ag11" class="agaba11">  الاجابة الصحيحة : الثلاثة يشتغلونها </p>
+              <p id="ag12" class="agaba12">  الاجابة الصحيحة : اللمبى 8 جيجا  </p>
+              <p id="ag13" class="agaba13">  الاجابة الصحيحة : عسل اسود  </p>
+              <p id="ag14" class="agaba14">  الاجابة الصحيحة : عصافير النيل  </p>
+              <p id="ag15" class="agaba15">  الاجابة الصحيحة : عصابة حمادة وتوتو  </p>
+              <p id="ag16" class="agaba16">  الاجابة الصحيحة : فتح عينيك  </p>
+              <p id="ag17" class="agaba17">  الاجابة الصحيحة : الاسطى المدير  </p>
+              <p id="ag18" class="agaba18">  الاجابة الصحيحة : بلية ودماغة العالية  </p>
+              <p id="ag19" class="agaba19">  الاجابة الصحيحة : الحرامى والعبيط  </p>
+              <p id="ag20" class="agaba20">  الاجابة الصحيحة : قلب امة  </p>
+              <p id="ag21" class="agaba21">  الاجابة الصحيحة : وقفة رجالة  </p>
+              <p id="ag22" class="agaba22">  الاجابة الصحيحة : ساعة رضا  </p>
+              <p id="ag23" class="agaba23">  الاجابة الصحيحة : حامل اللقب  </p>
+              <p id="ag24" class="agaba24">  الاجابة الصحيحة : ساعة ونصف  </p>
+              <p id="ag25" class="agaba25">  الاجابة الصحيحة : الهرم الرابع  </p>
+              <p id="ag26" class="agaba26">  الاجابة الصحيحة : البدلة  </p>
+              <p id="ag27" class="agaba27">  الاجابة الصحيحة : غرام الافاعى  </p>
+              <p id="ag28" class="agaba28">  الاجابة الصحيحة : الفيل الازرق  </p>
+              <p id="ag29" class="agaba29">  الاجابة الصحيحة : رصيف نمرة خمسة  </p>
+              <p id="ag30" class="agaba30">  الاجابة الصحيحة : ابناء وقتلة  </p>
+                        </div>
+                        
+                    </div>
+
+                    <div class="col-md-3 col-sm-3 col-xs-4" >
+                      
+                        <div id="d_false" class="div3">
+                            <span class="glyphicon glyphicon-remove
+                            wrong"></span>
+                        </div>
+                        <h1 id="fa" class="false"> 0 </h1>
+                        
+                    </div>
+                </div>    
+            </div>
+    </section>
+
+
+
+
+<section class="sec2 text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="div1">
+                    <div class="image_f">
+                        <img src="./images/think.gif" alt="">
+                    </div>
+                    <h1> 1 </h1>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="div__quse">
+                                <ul class="list-unstyled">
+                            <li>  
+                                    <img src="./images/a1.png" alt="">
+
+                            </li>
+                            <li>  
+                                <img src="./images/a2.png" alt="">
+
+                        </li>
+
+                     
+
+                        <li>  
+                            <img src="./images/a3.png" alt="">
+
+                       </li>
+
+    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <input maxlength="21" id="inp1"   type="text" placeholder="اكتب اسم الفيلم ">
+                        </div>
+                         <div  class="alert1">
+                            <p> لا تترك هذا الحقل فارغا  </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <button onclick="click1();" class="btn btn-primary"> موافق </button>    
+                        </div>
+                       
+                    </div>
+                </div>
+
+            
+                <div class="div2">
+                    <div class="image_f">
+                        <img src="./images/think.gif" alt="">
+                    </div>
+                    <h1> 2 </h1>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="div__quse">
+                                <ul class="list-unstyled">
+                            <li>  
+                                    <img src="./images/a8.png" alt="">
+
+                            </li>
+                       
+
+                            <li>  
+                                <img src="./images/a9.jpg" alt="">
+
+                        </li>
+                   
+
+                   
+
+    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <input maxlength="14" id="inp2"  type="text" placeholder="اكتب اسم الفيلم ">
+                        </div>
+                        <div class="alert2">
+                            <p> لا تترك هذا الحقل فارغا  </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <button onclick="click2();" class="btn btn-primary"> موافق </button>    
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="div3">
+                    <div class="image_f">
+                        <img src="./images/think.gif" alt="">
+                    </div>
+                    <h1> 3 </h1>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="div__quse">
+                                <ul class="list-unstyled">
+                            <li>  
+                                    <img src="./images/a7.png" alt="">
+
+                            </li>
+                       
+                            <li>  
+                                <img src="./images/a5.png" alt="">
+
+                        </li>
+                   
+                        <li>  
+                            <img src="./images/a6.png" alt="">
+
+                    </li>
+               
+
+                     
+
+                   
+
+    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <input maxlength="14" id="inp3"  type="text" placeholder="اكتب اسم الفيلم ">
+                        </div>
+                        <div class="alert3">
+                            <p> لا تترك هذا الحقل فارغا  </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <button onclick="click3();" class="btn btn-primary"> موافق </button>    
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="div4">
+                    <div class="image_f">
+                        <img src="./images/think.gif" alt="">
+                    </div>
+                    <h1> 4 </h1>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="div__quse">
+                                <ul class="list-unstyled">
+                            <li>  
+                                    <img src="./images/a10.png" alt="">
+
+                            </li>
+                       
+                            <li>  
+                                <img src="./images/a12.jpg" alt="">
+
+                        </li>
+                   
+           
+
+                     
+
+                   
+
+    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <input maxlength="9"  id="inp4"  type="text" placeholder="اكتب اسم الفيلم ">
+                        </div>
+                        <div class="alert4">
+                            <p> لا تترك هذا الحقل فارغا  </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <button onclick="click4();" class="btn btn-primary"> موافق </button>    
+                        </div>
+                    </div>
+                </div>
+           
+                <div class="div5">
+                    <div class="image_f">
+                        <img src="./images/think.gif" alt="">
+                    </div>
+                    <h1> 5 </h1>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="div__quse">
+                                <ul class="list-unstyled">
+                            <li>  
+                                    <img src="./images/a13.jpg" alt="">
+
+                            </li>
+                       
+                            <li>  
+                                <img src="./images/a14.jpg" alt="">
+
+                        </li>
+                   
+           
+
+                     
+
+                   
+
+    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <input maxlength="15"  id="inp5" type="text" placeholder="اكتب اسم الفيلم ">
+                        </div>
+                        <div class="alert5">
+                            <p> لا تترك هذا الحقل فارغا  </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <button onclick="click5();" class="btn btn-primary"> موافق </button>    
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="div6">
+                    <div class="image_f">
+                        <img src="./images/think.gif" alt="">
+                    </div>
+                    <h1> 6 </h1>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="div__quse">
+                                <ul class="list-unstyled">
+                            <li>  
+                                    <img src="./images/a15.jpg" alt="">
+
+                            </li>
+                       
+                            <li>  
+                                <img src="./images/a16.png" alt="">
+
+                        </li>
+                   
+           
+
+                     
+
+                   
+
+    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <input maxlength="10" id="inp6"  type="text" placeholder="اكتب اسم الفيلم ">
+                        </div>
+                        <div class="alert6">
+                            <p> لا تترك هذا الحقل فارغا  </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <button onclick="click6();" class="btn btn-primary"> موافق </button>    
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="div7">
+                    <div class="image_f">
+                        <img src="./images/think.gif" alt="">
+                    </div>
+                    <h1> 7 </h1>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="div__quse">
+                                <ul class="list-unstyled">
+                            <li>  
+                                    <img src="./images/a17.jpg" alt="">
+
+                            </li>
+                       
+                            <li>  
+                                <img src="./images/a18.png" alt="">
+
+                        </li>
+                   
+                        <li>  
+                            <img src="./images/a19.jpg" alt="">
+
+                    </li>
+               
+
+                     
+
+                   
+
+    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <input maxlength="16" id="inp7"  type="text" placeholder="اكتب اسم الفيلم ">
+                        </div>
+                        <div class="alert7">
+                            <p> لا تترك هذا الحقل فارغا  </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <button onclick="click7();" class="btn btn-primary"> موافق </button>    
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="div8">
+                    <div class="image_f">
+                        <img src="./images/think.gif" alt="">
+                    </div>
+                    <h1> 8 </h1>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="div__quse">
+                                <ul class="list-unstyled">
+                            <li>  
+                                    <img src="./images/a20.jpg" alt="">
+
+                            </li>
+                       
+                            <li>  
+                                <img src="./images/a21.jpg" alt="">
+
+                        </li>
+                   
+                
+               
+
+                     
+
+                   
+
+    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <input maxlength="12" id="inp8"  type="text" placeholder="اكتب اسم الفيلم ">
+                        </div>
+                        <div class="alert8">
+                            <p> لا تترك هذا الحقل فارغا  </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <button onclick="click8();" class="btn btn-primary"> موافق </button>    
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="div9">
+                    <div class="image_f">
+                        <img src="./images/think.gif" alt="">
+                    </div>
+                    <h1> 9 </h1>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="div__quse">
+                                <ul class="list-unstyled">
+                            <li>  
+                                    <img src="./images/a22.png" alt="">
+
+                            </li>
+                       
+                            <li>  
+                                <img src="./images/a23.jpg" alt="">
+
+                        </li>
+                   
+                
+               
+
+                     
+
+                   
+
+    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <input maxlength="12" id="inp9"  type="text" placeholder="اكتب اسم الفيلم ">
+                        </div>
+                        <div class="alert9">
+                            <p> لا تترك هذا الحقل فارغا  </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <button onclick="click9();" class="btn btn-primary"> موافق </button>    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="div10">
+                    <div class="image_f">
+                        <img src="./images/think.gif" alt="">
+                    </div>
+                    <h1> 10 </h1>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="div__quse">
+                                <ul class="list-unstyled">
+                            <li>  
+                                    <img src="./images/a24.png" alt="">
+
+                            </li>
+                       
+                            <li>  
+                                <img src="./images/a25.png" alt="">
+
+                        </li>
+                   
+                
+               
+
+                     
+
+                   
+
+    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <input maxlength="11" id="inp10"  type="text" placeholder="اكتب اسم الفيلم ">
+                        </div>
+                        <div class="alert10">
+                            <p> لا تترك هذا الحقل فارغا  </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <button onclick="click10();" class="btn btn-primary"> موافق </button>    
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="div11">
+                    <div class="image_f">
+                        <img src="./images/think.gif" alt="">
+                    </div>
+                    <h1> 11 </h1>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="div__quse">
+                                <ul class="list-unstyled">
+                            <li>  
+                                    <img src="./images/a26.jpg" alt="">
+
+                            </li>
+                       
+                            <li>  
+                                <img src="./images/a27.jpg" alt="">
+
+                        </li>
+                   
+                
+               
+
+                     
+
+                   
+
+    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <input maxlength="17" id="inp11"  type="text" placeholder="اكتب اسم الفيلم ">
+                        </div>
+                        <div class="alert11">
+                            <p> لا تترك هذا الحقل فارغا  </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <button onclick="click11();" class="btn btn-primary"> موافق </button>    
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="div12">
+                    <div class="image_f">
+                        <img src="./images/think.gif" alt="">
+                    </div>
+                    <h1> 12 </h1>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="div__quse">
+                                <ul class="list-unstyled">
+                            <li>  
+                                    <img src="./images/a28.jpg" alt="">
+
+                            </li>
+                       
+                            <li>  
+                                <img src="./images/29.jpg" alt="">
+
+                        </li>
+                   
+                
+               
+
+                     
+
+                   
+
+    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <input maxlength="13" id="inp12"  type="text" placeholder="اكتب اسم الفيلم ">
+                        </div>
+                        <div class="alert12">
+                            <p> لا تترك هذا الحقل فارغا  </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <button onclick="click12();" class="btn btn-primary"> موافق </button>    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="div13">
+                    <div class="image_f">
+                        <img src="./images/think.gif" alt="">
+                    </div>
+                    <h1> 13 </h1>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="div__quse">
+                                <ul class="list-unstyled">
+                            <li>  
+                                    <img src="./images/a30.jpg" alt="">
+
+                            </li>
+                       
+                            <li>  
+                                <img src="./images/a31.jpg" alt="">
+
+                        </li>
+                   
+                
+               
+
+                     
+
+                   
+
+    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <input maxlength="8" id="inp13"  type="text" placeholder="اكتب اسم الفيلم ">
+                        </div>
+                        <div class="alert13">
+                            <p> لا تترك هذا الحقل فارغا  </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <button onclick="click13();" class="btn btn-primary"> موافق </button>    
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="div14">
+                    <div class="image_f">
+                        <img src="./images/think.gif" alt="">
+                    </div>
+                    <h1> 14 </h1>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="div__quse">
+                                <ul class="list-unstyled">
+                            <li>  
+                                    <img src="./images/a32.jpg" alt="">
+
+                            </li>
+                       
+                            <li>  
+                                <img src="./images/a33.jpg" alt="">
+
+                        </li>
+                   
+                
+               
+
+                     
+
+                   
+
+    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <input maxlength="12" id="inp14"  type="text" placeholder="اكتب اسم الفيلم ">
+                        </div>
+                        <div class="alert14">
+                            <p> لا تترك هذا الحقل فارغا  </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <button onclick="click14();" class="btn btn-primary"> موافق </button>    
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="div15">
+                    <div class="image_f">
+                        <img src="./images/think.gif" alt="">
+                    </div>
+                    <h1> 15 </h1>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="div__quse">
+                                <ul class="list-unstyled">
+                            <li>  
+                                    <img src="./images/a34.jpg" alt="">
+
+                            </li>
+                       
+                            <li>  
+                                <img src="./images/a35.jpg" alt="">
+
+                        </li>
+                   
+                        <li>  
+                            <img src="./images/a36.jpg" alt="">
+
+                    </li>
+                
+               
+
+                     
+
+                   
+
+    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <input maxlength="17" id="inp15"  type="text" placeholder="اكتب اسم الفيلم ">
+                        </div>
+                        <div class="alert15">
+                            <p> لا تترك هذا الحقل فارغا  </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <button onclick="click15();" class="btn btn-primary"> موافق </button>    
+                        </div>
+                    </div>
+                </div>
+
+
+                    
+                <div class="div16">
+                    <div class="image_f">
+                        <img src="./images/think.gif" alt="">
+                    </div>
+                    <h1> 16 </h1>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="div__quse">
+                                <ul class="list-unstyled">
+                        
+                           
+                       
+                            <li>  
+                                <img src="./images/a37.jpg" alt="">
+
+                        </li>
+                   
+                        <li>  
+                            <img src="./images/a38.jpg" alt="">
+
+                    </li>
+                
+               
+
+                     
+
+                   
+
+    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <input maxlength="9" id="inp16"  type="text" placeholder="اكتب اسم الفيلم ">
+                        </div>
+                        <div class="alert16">
+                            <p> لا تترك هذا الحقل فارغا  </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <button onclick="click16();" class="btn btn-primary"> موافق </button>    
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="div17">
+                    <div class="image_f">
+                        <img src="./images/think.gif" alt="">
+                    </div>
+                    <h1> 17 </h1>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="div__quse">
+                                <ul class="list-unstyled">
+                        
+                           
+                       
+                            <li>  
+                                <img src="./images/a39.jpg" alt="">
+
+                        </li>
+                   
+                        <li>  
+                            <img src="./images/a40.jpg" alt="">
+
+                    </li>
+                
+               
+
+                     
+
+                   
+
+    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <input maxlength="13" id="inp17"  type="text" placeholder="اكتب اسم الفيلم ">
+                        </div>
+                        <div class="alert17">
+                            <p> لا تترك هذا الحقل فارغا  </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <button onclick="click17();" class="btn btn-primary"> موافق </button>    
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="div18">
+                    <div class="image_f">
+                        <img src="./images/think.gif" alt="">
+                    </div>
+                    <h1> 18 </h1>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="div__quse">
+                                <ul class="list-unstyled">
+                        
+                           
+                       
+                            <li>  
+                                <img src="./images/a41.jpg" alt="">
+
+                        </li>
+                   
+                        <li>  
+                            <img src="./images/a42.jpg" alt="">
+
+                    </li>
+                
+
+                    <li>  
+                        <img src="./images/a43.jpg" alt="">
+
+                </li>
+               
+
+                     
+
+                   
+
+    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <input maxlength="19" id="inp18"  type="text" placeholder="اكتب اسم الفيلم ">
+                        </div>
+                        <div class="alert18">
+                            <p> لا تترك هذا الحقل فارغا  </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <button onclick="click18();" class="btn btn-primary"> موافق </button>    
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="div19">
+                    <div class="image_f">
+                        <img src="./images/think.gif" alt="">
+                    </div>
+                    <h1> 19 </h1>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="div__quse">
+                                <ul class="list-unstyled">
+                        
+                           
+                                    <li>  
+                                        <img src="./images/a45.jpg" alt="">
+            
+                                </li>
+                       
+                            <li>  
+                                <img src="./images/a44.png" alt="">
+
+                           </li>
+                    
+                
+   
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <input maxlength="15" id="inp19"  type="text" placeholder="اكتب اسم الفيلم ">
+                        </div>
+                        <div class="alert19">
+                            <p> لا تترك هذا الحقل فارغا  </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <button onclick="click19();" class="btn btn-primary"> موافق </button>    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="div20">
+                    <div class="image_f">
+                        <img src="./images/think.gif" alt="">
+                    </div>
+                    <h1> 20 </h1>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="div__quse">
+                                <ul class="list-unstyled">
+                        
+                           
+                                    <li>  
+                                        <img src="./images/a46.png" alt="">
+            
+                                </li>
+                       
+                            <li>  
+                                <img src="./images/a47.png" alt="">
+
+                           </li>
+                    
+                
+   
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <input maxlength="7" id="inp20"  type="text" placeholder="اكتب اسم الفيلم ">
+                        </div>
+                        <div class="alert20">
+                            <p> لا تترك هذا الحقل فارغا  </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <button onclick="click20();" class="btn btn-primary"> موافق </button>    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="div21">
+                    <div class="image_f">
+                        <img src="./images/think.gif" alt="">
+                    </div>
+                    <h1> 21 </h1>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="div__quse">
+                                <ul class="list-unstyled">
+                        
+                           
+                                    <li>  
+                                        <img src="./images/a48.png" alt="">
+            
+                                </li>
+                       
+                            <li>  
+                                <img src="./images/a49.jpg" alt="">
+
+                           </li>
+                    
+                
+   
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <input maxlength="10" id="inp21"  type="text" placeholder="اكتب اسم الفيلم ">
+                        </div>
+                        <div class="alert21">
+                            <p> لا تترك هذا الحقل فارغا  </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <button onclick="click21();" class="btn btn-primary"> موافق </button>    
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="div22">
+                    <div class="image_f">
+                        <img src="./images/think.gif" alt="">
+                    </div>
+                    <h1> 22 </h1>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="div__quse">
+                                <ul class="list-unstyled">
+                        
+                           
+                                    <li>  
+                                        <img src="./images/a50.jpg" alt="">
+            
+                                </li>
+                       
+                            <li>  
+                                <img src="./images/a51.jpg" alt="">
+
+                           </li>
+                    
+                
+   
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <input maxlength="8" id="inp22"  type="text" placeholder="اكتب اسم الفيلم ">
+                        </div>
+                        <div class="alert22">
+                            <p> لا تترك هذا الحقل فارغا  </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <button onclick="click22();" class="btn btn-primary"> موافق </button>    
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="div23">
+                    <div class="image_f">
+                        <img src="./images/think.gif" alt="">
+                    </div>
+                    <h1> 23 </h1>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="div__quse">
+                                <ul class="list-unstyled">
+                        
+                           
+                                    <li>  
+                                        <img src="./images/a52.jpg" alt="">
+            
+                                </li>
+                       
+                            <li>  
+                                <img src="./images/a53.jpg" alt="">
+
+                           </li>
+                    
+                
+   
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <input maxlength="10" id="inp23"  type="text" placeholder="اكتب اسم الفيلم ">
+                        </div>
+                        <div class="alert23">
+                            <p> لا تترك هذا الحقل فارغا  </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <button onclick="click23();" class="btn btn-primary"> موافق </button>    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="div24">
+                    <div class="image_f">
+                        <img src="./images/think.gif" alt="">
+                    </div>
+                    <h1> 24 </h1>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="div__quse">
+                                <ul class="list-unstyled">
+                        
+                           
+                                    <li>  
+                                        <img src="./images/a54.png" alt="">
+            
+                                </li>
+                       
+                            <li>  
+                                <img src="./images/a55.jpg" alt="">
+
+                           </li>
+                    
+                
+   
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <input maxlength="9" id="inp24"  type="text" placeholder="اكتب اسم الفيلم ">
+                        </div>
+                        <div class="alert24">
+                            <p> لا تترك هذا الحقل فارغا  </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <button onclick="click24();" class="btn btn-primary"> موافق </button>    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="div25">
+                    <div class="image_f">
+                        <img src="./images/think.gif" alt="">
+                    </div>
+                    <h1> 25 </h1>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="div__quse">
+                                <ul class="list-unstyled">
+                        
+                           
+                                    <li>  
+                                        <img src="./images/a56.jpg" alt="">
+            
+                                </li>
+                       
+                            <li>  
+                                <img src="./images/a57.jpg" alt="">
+
+                           </li>
+                    
+                
+   
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <input maxlength="12" id="inp25"  type="text" placeholder="اكتب اسم الفيلم ">
+                        </div>
+                        <div class="alert25">
+                            <p> لا تترك هذا الحقل فارغا  </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <button onclick="click25();" class="btn btn-primary"> موافق </button>    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="div26">
+                    <div class="image_f">
+                        <img src="./images/think.gif" alt="">
+                    </div>
+                    <h1> 26 </h1>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="div__quse">
+                                <ul class="list-unstyled">
+                        
+                           
+                                    <li>  
+                                        <img src="./images/a58.jpg" alt="">
+            
+                                </li>
+                       
+                           
+                
+   
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <input maxlength="6" id="inp26"  type="text" placeholder="اكتب اسم الفيلم ">
+                        </div>
+                        <div class="alert26">
+                            <p> لا تترك هذا الحقل فارغا  </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <button onclick="click26();" class="btn btn-primary"> موافق </button>    
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="div27">
+                    <div class="image_f">
+                        <img src="./images/think.gif" alt="">
+                    </div>
+                    <h1> 27 </h1>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="div__quse">
+                                <ul class="list-unstyled">
+                        
+                                    <li>  
+                                        <img src="./images/a60.png" alt="">
+            
+                                </li>
+                           
+                                    <li>  
+                                        <img src="./images/a59.jpg" alt="">
+            
+                                </li>
+                       
+                       
+                   
+                
+   
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <input maxlength="12" id="inp27"  type="text" placeholder="اكتب اسم الفيلم ">
+                        </div>
+                        <div class="alert27">
+                            <p> لا تترك هذا الحقل فارغا  </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <button onclick="click27();" class="btn btn-primary"> موافق </button>    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="div28">
+                    <div class="image_f">
+                        <img src="./images/think.gif" alt="">
+                    </div>
+                    <h1> 28 </h1>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="div__quse">
+                                <ul class="list-unstyled">
+                        
+                                    <li>  
+                                        <img src="./images/a61.png" alt="">
+            
+                                </li>
+                           
+                                    <li>  
+                                        <img src="./images/a62.png" alt="">
+            
+                                </li>
+                       
+                       
+                   
+                
+   
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <input maxlength="12" id="inp28"  type="text" placeholder="اكتب اسم الفيلم ">
+                        </div>
+                        <div class="alert28">
+                            <p> لا تترك هذا الحقل فارغا  </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <button onclick="click28();" class="btn btn-primary"> موافق </button>    
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="div29">
+                    <div class="image_f">
+                        <img src="./images/think.gif" alt="">
+                    </div>
+                    <h1> 29 </h1>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="div__quse">
+                                <ul class="list-unstyled">
+                        
+                                    <li>  
+                                        <img src="./images/a63.jpg" alt="">
+            
+                                </li>
+                           
+                                    <li>  
+                                        <img src="./images/a64.jpg" alt="">
+            
+                                </li>
+
+                                <li>  
+                                    <img src="./images/a65.png" alt="">
+        
+                            </li>
+                       
+                       
+                   
+                
+   
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <input maxlength="14" id="inp29"  type="text" placeholder="اكتب اسم الفيلم ">
+                        </div>
+                        <div class="alert29">
+                            <p> لا تترك هذا الحقل فارغا  </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <button onclick="click29();" class="btn btn-primary"> موافق </button>    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="div30">
+                    <div class="image_f">
+                        <img src="./images/think.gif" alt="">
+                    </div>
+                    <h1> 30 </h1>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="div__quse">
+                                <ul class="list-unstyled">
+                        
+                                    <li>  
+                                        <img src="./images/a66.jpg" alt="">
+            
+                                </li>
+                           
+                                    <li>  
+                                        <img src="./images/a67.jpg" alt="">
+            
+                                </li>
+
+                        
+                       
+                   
+                
+   
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <input maxlength="11" id="inp30"  type="text" placeholder="اكتب اسم الفيلم ">
+                        </div>
+                        <div class="alert30">
+                            <p> لا تترك هذا الحقل فارغا  </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <button onclick="click30();" class="btn btn-primary"> موافق </button>    
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="result">
+                    <div class="row">
+                        <h1 id="win" class="Winner"> Winner </h1>
+                        <h1 id="los" class="Loser"> Loser </h1>
+                        <div class="col-lg-6">
+                            <h1> <span id="true_span" class="glyphicon glyphicon-ok
+                                "></span></h1>
+                            <div class="div1_tru">
+                                <p> Points</p>
+                                <h1 id="point_tr">
+                                0
+                                </h1>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <h1> <span id="false_span" class="glyphicon glyphicon-remove
+                                "></span></h1>
+                            <div class="div1_fal">
+                                <p> Points</p>
+                                <h1 id="point_fal">
+                                    0
+
+                                </h1>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                <a href="index.html"> اعادة اللعبة  </a>
+                        </div>
+                    </div>
+
+                   
+
+                 
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<div id="blon" class="blon"></div>
+    
+    <script src="./js/jquery-3.6.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/index.js"></script>
+
+</body>
+</html>
